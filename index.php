@@ -14,14 +14,14 @@ $siteurl="http://dev.b2gstudios.com/b2gsite/";
 <title>b2gstudios - Home</title>
 
 
-<link href="<?php echo $siteurl;?>files/css/fonts.css" rel="stylesheet" type="text/css" />
+<link href="files/css/fonts.css" rel="stylesheet" type="text/css" />
 <link href="files/css/style.css" rel="stylesheet" type="text/css" title="style" />
-<link href="<?php echo $siteurl;?>files/css/isotope.css" rel="stylesheet" type="text/css" />
-<link href="<?php echo $siteurl;?>files/css/flexslider.css" rel="stylesheet" type="text/css" />
-<link href="<?php echo $siteurl;?>files/css/fancybox.css" rel="stylesheet" type="text/css" />
-<link href="<?php echo $siteurl;?>files/jplayer/jplayer.css" rel="stylesheet" type="text/css"  />
-<link href="<?php echo $siteurl;?>files/css/mqueries.css" rel="stylesheet" type="text/css" media="screen" />
-<link href="<?php echo $siteurl;?>files/demo/demo.css" rel="stylesheet" />
+<link href="files/css/isotope.css" rel="stylesheet" type="text/css" />
+<link href="files/css/flexslider.css" rel="stylesheet" type="text/css" />
+<link href="files/css/fancybox.css" rel="stylesheet" type="text/css" />
+<link href="files/jplayer/jplayer.css" rel="stylesheet" type="text/css"  />
+<link href="files/css/mqueries.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="files/demo/demo.css" rel="stylesheet" />
 
 <script src="<?php echo $siteurl;?>files/js/jquery-1.7.1.min.js"></script>
 <script src="<?php echo $siteurl;?>files/js/jquery.modernizr.min.js"></script>
