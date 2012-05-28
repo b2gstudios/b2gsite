@@ -1,6 +1,26 @@
 <?php
-include "includes/initialize.php";
 
+
+
+// Error reporting:
+error_reporting(E_ALL^E_NOTICE);
+include 'includes/initialize.php';
+include 'includes/functions.php';
+include 'comments/connect.php';
+include 'comments/comment.class.php';
+require_once ('includes/functions.php');
+
+/*
+/   Select all the comments and populate the $comments array with objects
+*/
+
+$comments = array();
+$result = mysql_query("SELECT * FROM comments ORDER BY id ASC");
+
+while($row = mysql_fetch_assoc($result))
+{
+    $comments[] = new Comment($row);
+}
 
 ?>
 
@@ -25,7 +45,8 @@ include "includes/initialize.php";
 <link href="files/css/mqueries.css" rel="stylesheet" type="text/css" media="screen" />
 <link href="files/demo/demo.css" rel="stylesheet" /><script src="files/js/jquery-1.7.1.min.js"></script>
 <script src="files/js/jquery.modernizr.min.js"></script>
-
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="comments/script.js"></script>
 </head>
 <body   id="blog">
 <div id="page">
@@ -48,12 +69,12 @@ include "includes/initialize.php";
     
         <div class="header_top clearfix">
             <div id="logo" class="left_float">
-                <a class="logotype" href="index-2.php"><img src="<?php echo $logo;?>" alt="Logotype"></a>  
+                <a class="logotype" href="index.php"><img src="<?php echo $logo;?>" alt="Logotype"></a>  
             </div>
             
             <nav id="nav" class="right_float">
                 <ul>
-                    <li><a href="index-2.php">Home</a></li>
+                    <li><a href="index.php">Home</a></li>
                     <li><a href="about.php">About</a></li>
                     <li><a href="shortcodes.php">Features</a>
                         <ul>
@@ -148,6 +169,17 @@ include "includes/initialize.php";
                 <div id="commenticon" class="left_float"><span class="icon"></span></div>
                 <div class="comment-list right_float">
                     <div class="comment">
+                        <?php
+
+/*
+/   Output the comments one by one:
+*/
+
+foreach($comments as $c){
+    echo $c->markup();
+}
+
+?>
                         <div class="user"><img src="files/images/blog/avatar.png" title="Avatar" /></div>
                         <div class="comment_content">
                             <h5><strong>Robin Seifeld</strong></h5>
@@ -265,14 +297,7 @@ include "includes/initialize.php";
 <section id="bottom">
     <div class="bottom_inner wrapperoverlay">
         <div class="widget"><h6>Social Media</h6>
-            <div class="socialmedia">
-                <a class="facebook" href="index-2.php" target="_blank"><span>Facebook</span></a>
-                <a class="twitter" href="index-2.php" target="_blank"><span>Twitter</span></a>
-                <a class="dribbble" href="index-2.php" target="_blank"><span>Dribbble</span></a>
-                <a class="vimeo" href="index-2.php" target="_blank"><span>Vimeo</span></a>
-                <a class="flickr" href="index-2.php" target="_blank"><span>Flickr</span></a>
-                <a class="googleplus" href="index-2.php" target="_blank"><span>Google+</span></a>
-            </div>
+            <?php social_media();?>
         </div>
     </div>
 </section> <!-- END #bottom -->
@@ -335,7 +360,7 @@ include "includes/initialize.php";
 
 
 <a href="#" class="totop" title="Back to top">ToTop</a>
-
+<?php resize_me();?>
 </div> <!-- END #page -->
 
 

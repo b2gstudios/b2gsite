@@ -1,6 +1,6 @@
 <?php
 include "includes/initialize.php";
-
+require_once ('includes/functions.php');
 
 ?>
 
@@ -236,22 +236,15 @@ include "includes/initialize.php";
 <section id="bottom">
 	<div class="bottom_inner wrapperoverlay">
     	<div class="widget"><h6>Social Media</h6>
-            <div class="socialmedia">
-                <a class="facebook" href="index.php" target="_blank"><span>Facebook</span></a>
-                <a class="twitter" href="index.php" target="_blank"><span>Twitter</span></a>
-                <a class="dribbble" href="index.php" target="_blank"><span>Dribbble</span></a>
-                <a class="vimeo" href="index.php" target="_blank"><span>Vimeo</span></a>
-                <a class="flickr" href="index.php" target="_blank"><span>Flickr</span></a>
-                <a class="googleplus" href="index.php" target="_blank"><span>Google+</span></a>
-            </div>
+            <?php social_media();?>
         </div>
     </div>
 </section> <!-- END #bottom -->
     
 <footer id="footer">
 	<div class="footer_inner wrapper clearfix">
-    	<div class="column one_third seperator">
-        	<div class="widget">
+	<div class="column one_third seperator">
+	<div class="widget">
                 <h6 class="sectiontitle">About b2gstudios</h6>
                 <div id="text-widget">
                     <p>
@@ -305,7 +298,7 @@ include "includes/initialize.php";
 </footer> <!-- END #footer -->
 
 <a href="#" class="totop" title="Back to top">ToTop</a>
-
+<?php resize_me();?>
 </div> <!-- END #page -->
 
 
