@@ -3,5 +3,5 @@
 <title>404 Not Found</title>
 </head><body>
 <h1>Not Found</h1>
-<p>The requested URL /themeforest/b2gstudios/files/images/bullets.png was not found on this server.</p>
+<p>The requested URL /themeforest/b2gstudios/blog-single.php was not found on this server.</p>
 </body></html>

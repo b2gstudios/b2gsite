@@ -2,10 +2,10 @@
 
 /* Database config */
 
-$db_host		= 'localhost';
-$db_user		= 'root';
-$db_pass		= 'root';
-$db_database		= 'comments'; 
+$db_host    		= 'localhost';
+$db_user    		= 'btwogstu_b2gsite';
+$db_pass    		= 'viper111';
+$db_database		= 'btwogstu_comments'; 
 
 /* End config */
 
