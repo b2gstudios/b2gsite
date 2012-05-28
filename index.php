@@ -456,14 +456,14 @@ $siteurl="http://dev.b2gstudios.com/b2gsite/";
 
 
 <!-- jquery -->
-<script src="files/js/jquery.isotope.min.js"></script>
-<script src="files/js/jquery.flexslider-min.js"></script>
-<script src='files/js/jquery.easing.1.3.js'></script>
-<script src='files/js/jquery.easing.compatibility.js'></script>
-<script src="files/js/jquery.fancybox.pack.js"></script>
-<script src="files/jplayer/jquery.jplayer.min.js"></script>
-<script src="files/js/script.js"></script>
-<script src="files/js/loader.js"></script>
+<script src="<?php echo $siteurl;?>files/js/jquery.isotope.min.js"></script>
+<script src="<?php echo $siteurl;?>files/js/jquery.flexslider-min.js"></script>
+<script src='<?php echo $siteurl;?>files/js/jquery.easing.1.3.js'></script>
+<script src='<?php echo $siteurl;?>files/js/jquery.easing.compatibility.js'></script>
+<script src="<?php echo $siteurl;?>files/js/jquery.fancybox.pack.js"></script>
+<script src="<?php echo $siteurl;?>files/jplayer/jquery.jplayer.min.js"></script>
+<script src="<?php echo $siteurl;?>files/js/script.js"></script>
+<script src="<?php echo $siteurl;?>files/js/loader.js"></script>
 
 
 <script type="text/javascript">
