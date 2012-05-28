@@ -15,7 +15,7 @@ $siteurl="http://dev.b2gstudios.com/b2gsite/";
 
 
 <link href="<?php echo $siteurl;?>files/css/fonts.css" rel="stylesheet" type="text/css" />
-<link href="<?php echo $siteurl;?>files/css/style.css" rel="stylesheet" type="text/css" title="style" />
+<link href="files/css/style.css" rel="stylesheet" type="text/css" title="style" />
 <link href="<?php echo $siteurl;?>files/css/isotope.css" rel="stylesheet" type="text/css" />
 <link href="<?php echo $siteurl;?>files/css/flexslider.css" rel="stylesheet" type="text/css" />
 <link href="<?php echo $siteurl;?>files/css/fancybox.css" rel="stylesheet" type="text/css" />
@@ -463,7 +463,7 @@ $siteurl="http://dev.b2gstudios.com/b2gsite/";
 <script src="<?php echo $siteurl;?>files/js/jquery.fancybox.pack.js"></script>
 <script src="<?php echo $siteurl;?>files/jplayer/jquery.jplayer.min.js"></script>
 <script src="<?php echo $siteurl;?>files/js/script.js"></script>
-<script src="<?php echo $siteurl;?>files/js/loader.js"></script>
+<script src="<?php echo $siteurl;?>qfiles/js/loader.js"></script>
 
 
 <script type="text/javascript">
