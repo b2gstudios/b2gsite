@@ -46,7 +46,7 @@ $siteurl="http://dev.b2gstudios.com/b2gsite/";
 	<div class="header_inner wrapper">
         <div class="header_top clearfix">
             <div id="logo" class="left_float">
-                <a class="logotype" href="index.html"><img src="files/images/logo2.png" alt="Logotype"></a>  
+                <a class="logotype" href="qqqindex.html"><img src="files/images/logo2.png" alt="Logotype"></a>  
             </div>
             
             <nav id="nav" class="right_float">
