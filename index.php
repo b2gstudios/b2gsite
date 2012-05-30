@@ -28,18 +28,16 @@ require_once ('includes/functions.php');
 
 <script src="files/js/jquery-1.7.1.min.js"></script>
 <script src="files/js/jquery.modernizr.min.js"></script>
-
+<?php tweet();?>
 </head>
 <body   id="home">
 <div id="page">
 <section id="top">
     <div class="top_inner wrapperoverlay clearfix">        
         <div class="widget"><h6>Latest Tweets</h6>
-	<div id="twitter-widget">
-	<ul class="tweet-list">
-	<li><span class="tweet_time"><a href="#">about 2 hours ago</a></span> <span class="tweet_text">B2gstudios sample tweet. <a href="http://tomgabrysiak.com" target="_blank">Check us out!</a></span></li>
-                </ul>
-            </div>
+            <div class="tweet">
+	
+        </div>
         </div>
         <a href="#" class="showhidetop" title="Show/Hide">open</a>
     </div>

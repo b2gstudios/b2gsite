@@ -28,38 +28,19 @@ require_once ('includes/functions.php');
 
 <script src="files/js/jquery-1.7.1.min.js"></script>
 <script src="files/js/jquery.modernizr.min.js"></script>
-
+<?php tweet();?>
 </head>
 <body   id="blog">
 <div id="page">
 
 
-<div id="demo" class="clearfix">
-    <div class="option option_bg">
-        <div class="option_title"><b>Background</b></div>
-        <ul>
-            <li><a id="opt_bg_default" href="#" class="active"><b>Default</b><span class="activesign">active</span></a></li>
-            
-            <li><a id="opt_bg_wood" href="#" class=""><b>Wood</b><span class="activesign">active</span></a></li>
-        </ul>
-    </div>
-    
-    <div class="option option_style">
-        <div class="option_title"><b>Style</b></div>
-        <ul>
-            <li><a id="opt_style_overlay" href="#" class="active"><b>Overlay</b><span class="activesign">active</span></a></li>
-            <li><a id="opt_style_boxed" href="#" class=""><b>Boxed</b><span class="activesign">active</span></a></li>
-        </ul>
-    </div>
-    
-    <a href="#" id="opendemo" class="" title="Options">Open Demo</a>
-</div>
+
 <section id="top">
     <div class="top_inner wrapperoverlay">        
         <div class="widget"><h6>Latest Tweets</h6>
-            <div id="twitter-widget">
-                <ul class="tweet-list">                 <li><span class="tweet_time"><a href="#">about 2 hours ago</a></span> <span class="tweet_text">Include your twitter feed or just a normal text widget. <a href="http://themeforest.net/item/b2gstudios-clean-responsive-ajax-html5/2253282" target="_blank">By this theme here</a></span></li></ul>
-            </div>
+           <div class="tweet">
+    
+        </div>
         </div>
         <a href="#" class="showhidetop" title="Show/Hide">open</a>
     </div>

@@ -1,4 +1,5 @@
 <?php
+
 include "includes/initialize.php";
 require_once ('includes/functions.php');
 
@@ -27,7 +28,10 @@ require_once ('includes/functions.php');
 <link href="files/demo/demo.css" rel="stylesheet" />
 
 <script src="files/js/jquery-1.7.1.min.js"></script>
+<script src="files/js/main.js"></script>
 <script src="files/js/jquery.modernizr.min.js"></script>
+
+<?php tweet();?>
 
 </head>
 <body   id="home">
@@ -35,11 +39,9 @@ require_once ('includes/functions.php');
 <section id="top">
     <div class="top_inner wrapperoverlay clearfix">        
         <div class="widget"><h6>Latest Tweets</h6>
-    <div id="twitter-widget">
-    <ul class="tweet-list">
-    <li><span class="tweet_time"><a href="#">about 2 hours ago</a></span> <span class="tweet_text">B2gstudios sample tweet. <a href="http://tomgabrysiak.com" target="_blank">Check us out!</a></span></li>
-                </ul>
-            </div>
+<div class="tweet">
+    
+        </div>
         </div>
         <a href="#" class="showhidetop" title="Show/Hide">open</a>
     </div>
@@ -123,26 +125,70 @@ require_once ('includes/functions.php');
 
 <section id="main">
     <div class="main_inner wrapper clearfix">
-        
+     
         <article>
             <div class="column two_third">
                 <h4><strong>Drop us a message</strong></h4>
-                <form id="contact-form" class="checkform" action="#" target="http://www.spab-rice.com/themeforest/b2gstudios/contact_send.php" method="post">
-                    <div>	<label for="name" class="req">NAME *</label>
-                            <input type="text" name="name" class="name" value="NAME *" onFocus="if (this.value == 'NAME *') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'NAME *';}"/></div>
-                    <div>	<label for="email" class="req">EMAIL *</label>
-                            <input type="text" name="email" class="email" value="EMAIL *" onFocus="if (this.value == 'EMAIL *') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'EMAIL *';}"/></div>
-                    <div>	<label for="subject">SUBJECT</label>
-                            <input type="text" name="subject" class="subject" value="SUBJECT" onFocus="if (this.value == 'SUBJECT') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'SUBJECT';}"/></div>        
-                    <div>	<label for="message" class="req">MESSAGE *</label>
-                            <textarea name="message" class="message" onFocus="if (this.value == 'MESSAGE *') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'MESSAGE *';}" rows="15" cols="50">MESSAGE *</textarea></div>
-                    <div><input class="submit" type="submit" value="Send" name="submit_form" /></div>
-                    <input type="hidden" name="fields" value="name,email,subject,message," />
-                    <input type="hidden" name="sendto" value="spabrice@gmail.com" />
-                    <input type="hidden" name="subject" value="Custom Subject" />
-                </form>
-                <p id="form-note"><span class="error_icon">Error</span><span class="error_message"><strong>Please check your entries!</strong></span></p>
+                   
+
+                 
+<?php include 'process-form.php'; ?>
+
+
+
+                   <div id="form-note" class="message">
+            <?php echo !empty($error_list) ? $error_list : ''; ?>
             </div>
+            <?php echo $field_rules['name'];?>
+            <form id="contact-form" action="" method="post">
+
+                <fieldset>
+
+                    <div class="field">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" autofocus required="required"
+                                title="Your first and last name" class="name" value="NAME *" onFocus="if (this.value == 'NAME *') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'NAME *';}">
+                    </div>
+
+                    <div class="field" title="sadfsadf">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required="required" title="We will respond to this address" class="email" value="EMAIL *" onFocus="if (this.value == 'EMAIL *') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'EMAIL *';}">
+                    </div>
+
+                    <div class="field">
+                        <label for="phone">Phone</label>
+                        <input type="text" id="phone" name="phone" value="PHONE" title="If you prefer a phone call" value="PHONE" onFocus="if (this.value == 'PHONE') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'PHONE';}">
+                    </div>
+
+                    <div class="field">
+                        <label for="contact_reason">Contact Reason</label>
+                        <select id="contact_reason" name="contact_reason" required="required"
+                                title="Tell us how we can we help you">
+                            <option></option>
+                            <option>Hire b2gstudios</option>
+                            <option>General Inquiry</option>
+                            <option>Feedback</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+
+                    <div class="field">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" cols="15" rows="5" required="required"
+                                class="message" onFocus="if (this.value == 'MESSAGE *') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'MESSAGE *';}" rows="15" cols="50">MESSAGE *</textarea>
+                    </div>
+
+                    <div class="field submit">
+                        <input type="submit" value="Submit"/><input type="reset" value="Reset">
+                    </div>
+
+                </fieldset>
+
+            </form>
+                  
+                 
+         
+       </div>
             
             <div class="column one_third last">
                 <h4><strong>Contact Info</strong></h4>

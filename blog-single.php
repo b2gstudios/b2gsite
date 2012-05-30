@@ -47,6 +47,7 @@ while($row = mysql_fetch_assoc($result))
 <script src="files/js/jquery.modernizr.min.js"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 <script type="text/javascript" src="comments/script.js"></script>
+<?php tweet();?>
 </head>
 <body   id="blog">
 <div id="page">
@@ -55,9 +56,9 @@ while($row = mysql_fetch_assoc($result))
 <section id="top">
     <div class="top_inner wrapperoverlay">        
         <div class="widget"><h6>Latest Tweets</h6>
-            <div id="twitter-widget">
-                <ul class="tweet-list">                 <li><span class="tweet_time"><a href="#">about 2 hours ago</a></span> <span class="tweet_text">Include your twitter feed or just a normal text widget. <a href="http://themeforest.net/item/b2gstudios-clean-responsive-ajax-html5/2253282" target="_blank">By this theme here</a></span></li></ul>
-            </div>
+           <div class="tweet">
+    
+        </div>
         </div>
         <a href="#" class="showhidetop" title="Show/Hide">open</a>
     </div>
