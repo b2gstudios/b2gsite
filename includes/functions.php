@@ -42,9 +42,16 @@ function tweet () {
                auto_join_text_url: "we were checking out",
                loading_text: "loading tweets..."
                     });
+               $("#fromtwo").tweet({
+          avatar_size: 32,
+          count: 3,
+          username: "tomgabrysiak",
+          loading_text: "searching twitter...",
+          refresh_interval: 60
+        });
                });
-              </script> ';
+              </script>';
 
      echo $output;
-
 }
+

@@ -828,7 +828,7 @@ nav select option {
 ------------------------------------------------*/
 footer {
 	margin-bottom: 60px;
-	color:white;
+	color:rgb(159, 165, 166);
 	}
 	
 footer .footer_bottom {
@@ -1784,6 +1784,10 @@ div .widget:first-child {
 	
 #bottom #twitter-widget .tweet-list li .tweet_time, #top #twitter-widget .tweet-list li .tweet_time {
 	display: inline-block;
+
+	}
+	#fromtwo{
+		color:rgb(159, 165, 166);
 	}
 	
 
