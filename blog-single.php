@@ -36,17 +36,7 @@ while($row = mysql_fetch_assoc($result))
 <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
 
 <title><?php echo $title;?></title>
-<link href="files/css/fonts.css" rel="stylesheet" type="text/css" />
-<link href="files/css/style.css" rel="stylesheet" type="text/css" title="style" />
-<link href="files/css/isotope.css" rel="stylesheet" type="text/css" />
-<link href="files/css/flexslider.css" rel="stylesheet" type="text/css" />
-<link href="files/css/fancybox.css" rel="stylesheet" type="text/css" />
-<link href="files/jplayer/jplayer.css" rel="stylesheet" type="text/css"  />
-<link href="files/css/mqueries.css" rel="stylesheet" type="text/css" media="screen" />
-<link href="files/demo/demo.css" rel="stylesheet" /><script src="files/js/jquery-1.7.1.min.js"></script>
-<script src="files/js/jquery.modernizr.min.js"></script>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-<script type="text/javascript" src="comments/script.js"></script>
+<?php head();?>
 <?php tweet();?>
 </head>
 <body   id="blog">

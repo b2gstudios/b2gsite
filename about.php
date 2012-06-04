@@ -17,17 +17,7 @@ require_once ('includes/functions.php');
 <title><?php echo $title;?></title>
 
 
-<link href="files/css/fonts.css" rel="stylesheet" type="text/css" />
-<link href="files/css/style.css" rel="stylesheet" type="text/css" title="style" />
-<link href="files/css/isotope.css" rel="stylesheet" type="text/css" />
-<link href="files/css/flexslider.css" rel="stylesheet" type="text/css" />
-<link href="files/css/fancybox.css" rel="stylesheet" type="text/css" />
-<link href="files/jplayer/jplayer.css" rel="stylesheet" type="text/css"  />
-<link href="files/css/mqueries.css" rel="stylesheet" type="text/css" media="screen" />
-<link href="files/demo/demo.css" rel="stylesheet" />
-
-<script src="files/js/jquery-1.7.1.min.js"></script>
-<script src="files/js/jquery.modernizr.min.js"></script>
+<?php head();?>
 <?php tweet();?>
 </head>
 <body   id="home">
@@ -97,37 +87,34 @@ require_once ('includes/functions.php');
         
         <article>
         	
-            <h2 class="page-description"><i>Hello, I am b2gstudios.  A Clean, Minimal & Responsive Portfolio/Blog Theme.  You can change your background-imag easily through CSS.</i></h2>
+            <h2 class="page-description"><i>We are b2gstudios.  A Modern, Unique & Responsive Portfolio/Blog Theme.  You can change your background-imag easily through CSS.</i></h2>
             
             <div class="seperator-section"></div>
             
-        	<div class="column one_third"><img title="about" src="files/images/about/about.jpg" alt="" /></div>
+	<div class="column one_third"><img title="about" src="files/images/6.jpg" alt="" /></div>
                     
             <div class="column one_third">
-                <h4><strong>b2gstudios - Web Agency</strong></h4>
-                <p>
-<div class="toggle">
-                    <div class="toggle_title"><a href="#" class="color" alt="toggle"><span class="toggle_icon">+</span><b>Toggle</b></a></div>
-                    <div class="toggle_inner">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</div>
-                </div>
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
-                <p>Sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.<br />
+                <h4><strong>b2gstudios - Web Studio</strong></h4>
+                
+                    <p>We are a small talented web studio with a good sense of design.  Being unique is valuable and that's the foundation of b2gStudios. The Internet is a vast universe making it difficult to stand out and grab the target audience's attention.  We've traveled this universe many times and know what it takes offering many services for those who are just starting a business to those who want to revitalize their own.  The days are gone when having a website alone will generate sales, companies spend millions on web design and development because they realize where the future lies.</p>  
+                         <p>b2gStudios appreciates talent and we've put together a band of rockstars who will make your dream a reality.  We design and develop various web solutions from starter <a href="pricingtable.php">Wordpress</a> to custom hosted <a href="pricingtable.php">eCommerce</a> applications which serve millions of users daily.  While in our infancy we decided that instead of being a jack of all trades but a master of none, we wanted to be great at one...ok maybe a few. Take a look at some of our work and services but remember to <a href="contact.php">contact us</a> if you have a question or would like more info regarding a package.</p>   
+     
+              <br />
             </div>
+
             
             <div class="column one_third last">
                 <h4><strong>Skills</strong></h4>
                 <div class="skill">
-                    <span class="skill_name"><strong>Photoshop</strong></span>
+                    <span class="skill_name"><strong>PHP</strong></span>
                     <div class="skill_bar"><div class="skill_active" style="width: 57%;"></div><span><i>57%</i></span></div>
                 </div>
                 <div class="skill">
-                    <span class="skill_name"><strong>Illustrator</strong></span>
+                    <span class="skill_name"><strong>Wordpress</strong></span>
                     <div class="skill_bar"><div class="skill_active" style="width: 35%;"></div><span><i>35%</i></span></div>
                 </div>
                 <div class="skill">
-                    <span class="skill_name"><strong>HTML</strong></span>
+                    <span class="skill_name"><strong>jQuery/strong></span>
                     <div class="skill_bar"><div class="skill_active" style="width: 75%;"></div><span><i>75%</i></span></div>
                 </div>
                 <div class="skill">

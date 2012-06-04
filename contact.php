@@ -18,18 +18,7 @@ require_once ('includes/functions.php');
 <title><?php echo $title;?></title>
 
 
-<link href="files/css/fonts.css" rel="stylesheet" type="text/css" />
-<link href="files/css/style.css" rel="stylesheet" type="text/css" title="style" />
-<link href="files/css/isotope.css" rel="stylesheet" type="text/css" />
-<link href="files/css/flexslider.css" rel="stylesheet" type="text/css" />
-<link href="files/css/fancybox.css" rel="stylesheet" type="text/css" />
-<link href="files/jplayer/jplayer.css" rel="stylesheet" type="text/css"  />
-<link href="files/css/mqueries.css" rel="stylesheet" type="text/css" media="screen" />
-<link href="files/demo/demo.css" rel="stylesheet" />
-
-<script src="files/js/jquery-1.7.1.min.js"></script>
-<script src="files/js/main.js"></script>
-<script src="files/js/jquery.modernizr.min.js"></script>
+<?php head();?>
 
 <?php tweet();?>
 
