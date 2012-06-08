@@ -1,20 +1,5 @@
 <?php
-function head(){
-     $output='<link href="files/css/fonts.css" rel="stylesheet" type="text/css" />
-<link href="files/css/style.css" rel="stylesheet" type="text/css" title="style" />
-<link href="files/css/isotope.css" rel="stylesheet" type="text/css" />
-<link href="files/css/flexslider.css" rel="stylesheet" type="text/css" />
-<link href="files/css/fancybox.css" rel="stylesheet" type="text/css" />
-<link href="files/jplayer/jplayer.css" rel="stylesheet" type="text/css"  />
-<link href="files/css/mqueries.css" rel="stylesheet" type="text/css" media="screen" />
-<link href="files/demo/demo.css" rel="stylesheet" />
-<link rel="stylesheet" href="css/phone.css" type="text/css" media="screen" />
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-<script type="text/javascript" src="comments/script.js"></script>
-<script src="files/js/jquery-1.7.1.min.js"></script>
-<script src="files/js/jquery.modernizr.min.js"></script>';
-echo $output;
-}
+
 
 
 
@@ -60,7 +45,7 @@ function tweet() {
                     });
                $("#fromtwo").tweet({
           avatar_size: 32,
-          count: 3,
+          count: 2,
           username: "tomgabrysiak",
           loading_text: "searching twitter...",
           refresh_interval: 60
@@ -70,3 +55,5 @@ function tweet() {
 
      echo $output;
 }
+
+
