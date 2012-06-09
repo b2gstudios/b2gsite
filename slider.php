@@ -16,10 +16,10 @@
                         <img src="files/images/slider-03.png" />
                         <div class="flex-caption"><h4><strong>Go Ahead &amp; Try It, Resize Me! </strong></h4><p>Like a chameleon, this website adapts to any situation by changing its appearance.  Just try it yourself by resizing the window if your on a desktop. </p></div>
                     </li>
-                    <li>
+                    <!-- <li>
                         <img src="files/images/slider-05.png" />
                         
-                    </li>
+                    </li> -->
                     <li>
                         <img src="files/images/slider-04.png" />
                         <div class="flex-caption"><h4><strong>Design &amp; Development </strong></h4><p>With many packages to choose from, for new business or established corporations our solutions are helping many exceed their expectations. </p></div>

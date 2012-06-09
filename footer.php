@@ -21,15 +21,6 @@
                 <h6 class="sectiontitle">Flickr Feed</h6>
                 <div id="flickr-widget">
                     <ul class="flickr-list">
-                        <li><a href="#"><img src="files/images/portfolio/thumb-work_01.jpg"></a></li>
-                        <li><a href="#"><img src="files/images/portfolio/thumb-work_02.jpg"></a></li>
-                        <li><a href="#"><img src="files/images/portfolio/thumb-work_03.jpg"></a></li>
-                        <li><a href="#"><img src="files/images/portfolio/thumb-work_04.jpg"></a></li>
-                        <li><a href="#"><img src="files/images/portfolio/thumb-work_05.jpg"></a></li>
-                        <li><a href="#"><img src="files/images/portfolio/thumb-work_06.jpg"></a></li>
-                        <li><a href="#"><img src="files/images/portfolio/thumb-work_07.jpg"></a></li>
-                        <li><a href="#"><img src="files/images/portfolio/thumb-work_08.jpg"></a></li>
-                    </ul>
                 </div>
             </div>
         </div>

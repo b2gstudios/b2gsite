@@ -6,6 +6,7 @@
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="de"> <!--<![endif]-->
 <head>
+    <script>document.cookie='resolution='+Math.max(screen.width,screen.height)+("devicePixelRatio" in window ? ","+devicePixelRatio : ",1")+'; path=/';</script>
 <meta charset="utf-8">
 <!-- scaling not possible (for smartphones, ipad, etc.) -->
 <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
@@ -18,8 +19,9 @@
 <link href="files/css/fancybox.css" rel="stylesheet" type="text/css" />
 <link href="files/jplayer/jplayer.css" rel="stylesheet" type="text/css"  />
 <link href="files/css/mqueries.css" rel="stylesheet" type="text/css" media="screen" />
-<link href="files/demo/demo.css" rel="stylesheet" />
+<link href="files/colorbox/colorbox.css" rel="stylesheet" />
 <link rel="stylesheet" href="css/phone.css" type="text/css" media="screen" />
+<script src="files/colorbox/jquery.colorbox-min.js"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 <script type="text/javascript" src="comments/script.js"></script>
 <script src="files/js/jquery-1.7.1.min.js"></script>
@@ -32,6 +34,10 @@
 <script src="files/jplayer/jquery.jplayer.min.js"></script>
 <script src="files/js/script.js"></script>
 <script src="files/js/loader.js"></script>
+
+<script src="files/cycle/jquery.cycle.all.min.js"></script>
+<script src="files/js/jflickrfeed.js"></script>
+<script src="files/js/setup.js"></script>
 
 
 <?php tweet();?>

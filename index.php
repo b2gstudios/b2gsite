@@ -13,40 +13,40 @@ include "includes/initialize.php";
         
             <ul class="filter">
                 <li><a class="active" href="#" data-option-value="*">All</a></li>
-                <li><a href="#" data-option-value=".motion">Motion</a></li>
+                <li><a href="#" data-option-value=".design">Design</a></li>
                 <li><a href="#" data-option-value=".web">Web</a></li>
-                <li><a href="#" data-option-value=".print">Print</a></li>
+                <li><a href="#" data-option-value=".development">Development</a></li>
             </ul>
             
             
             <div id="masonry" class="portfolio-entries columns4 clearfix">
-	<div class="masonry_item portfolio-entry motion">
+	<div class="masonry_item portfolio-entry design">
                     <div class="imgoverlay">
                         <a href="portfolio-single.php" class="loadcontent" rel="nullam-id-dolor"><img src="files/images/portfolio/thumb-work_01.jpg" alt="Work 01"/></a>
                     </div>
                     <div class="portfolio-meta">
 	<h5><a href="portfolio-single.php" class="loadcontent" rel="nullam-id-dolor"><strong>Nullam id dolor</strong></a></h5>
-                        <span class="portfolio-categories">Motion</span>
+                        <span class="portfolio-categories">Design</span>
                     </div>
 	</div>
                 
-                <div class="masonry_item portfolio-entry print">
+                <div class="masonry_item portfolio-entry development">
                     <div class="imgoverlay">
                         <a href="portfolio-single.php" class="loadcontent" rel="duo-dolores"><img src="files/images/portfolio/thumb-work_02.jpg" alt="Work 02"/></a>
                     </div>
                     <div class="portfolio-meta">
 	<h5><a href="portfolio-single.php" class="loadcontent" rel="duo-dolores"><strong>Duo dolores</strong></a></h5>
-                        <span class="portfolio-categories">Print</span>
+                        <span class="portfolio-categories">Development</span>
                     </div>
 	</div>
                 
-                <div class="masonry_item portfolio-entry print">
+                <div class="masonry_item portfolio-entry development">
                     <div class="imgoverlay">
                         <a href="portfolio-single.php" class="loadcontent" rel="takimata-sanctus"><img src="files/images/portfolio/thumb-work_03.jpg" alt="Work 03"/></a>
                     </div>
                     <div class="portfolio-meta">
 	<h5><a href="portfolio-single.php" class="loadcontent" rel="takimata-sanctus"><strong>Takimata sanctus</strong></a></h5>
-                        <span class="portfolio-categories">Print</span>
+                        <span class="portfolio-categories">Development</span>
                     </div>
 	</div>
                 
@@ -60,13 +60,13 @@ include "includes/initialize.php";
                     </div>
 	 </div>
                 
-                <div class="masonry_item portfolio-entry motion">
+                <div class="masonry_item portfolio-entry design">
                     <div class="imgoverlay">
                         <a href="portfolio-single.php" class="loadcontent" rel="kasd-gubergren"><img src="files/images/portfolio/thumb-work_05.jpg" alt="Work 05"/></a>
                     </div>
                     <div class="portfolio-meta">
 	<h5><a href="portfolio-single.php" class="loadcontent" rel="kasd-gubergren"><strong>Kasd gubergren</strong></a></h5>
-                        <span class="portfolio-categories">Motion</span>
+                        <span class="portfolio-categories">Design</span>
                     </div>
 	</div>
                 
@@ -80,13 +80,13 @@ include "includes/initialize.php";
                     </div>
 	</div>
                 
-                <div class="masonry_item portfolio-entry print">
+                <div class="masonry_item portfolio-entry development">
                     <div class="imgoverlay">
                         <a href="portfolio-single.php" class="loadcontent" rel="eirmod-tempor"><img src="files/images/portfolio/thumb-work_07.jpg" alt="Work 07"/></a>
                     </div>
                     <div class="portfolio-meta">
 	<h5><a href="portfolio-single.php" class="loadcontent" rel="eirmod-tempor"><strong>Eirmod tempor</strong></a></h5>
-                        <span class="portfolio-categories">Print</span>
+                        <span class="portfolio-categories">Development</span>
                     </div>
 	</div>
                 
