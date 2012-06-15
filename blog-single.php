@@ -4,7 +4,7 @@
 
 // Error reporting:
 error_reporting(E_ALL^E_NOTICE);
-include 'includes/initialize.php';
+
 
 include 'comments/connect.php';
 include 'comments/comment.class.php';

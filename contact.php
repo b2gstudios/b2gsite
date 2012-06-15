@@ -1,8 +1,3 @@
-<?php
-include "includes/initialize.php";
-
-
-?>
 
 <?php include 'header.php';?>
 
@@ -33,7 +28,7 @@ include "includes/initialize.php";
 	var marker = new google.maps.Marker({
 		position: myLatlng, 
 		map: map,
-		title:"b2gstudios Theme"
+		title:"b2gstudios"
 	});
 	
   }
@@ -79,13 +74,14 @@ include "includes/initialize.php";
                     </div>
 
                     <div class="field">
-                        <label for="contact_reason">Contact Reason</label>
+                        <label for="contact_reason">Reason For Contact?</label>
                         <select id="contact_reason" name="contact_reason" required="required"
                                 title="Tell us how we can we help you">
                             <option></option>
-                            <option>Hire b2gstudios</option>
+                            <option>Request A Quote</option>                        
                             <option>General Inquiry</option>
-                            <option>Feedback</option>
+                            <option>Special Request</option>
+                            <option>EMERGENCY! Rush Project</option>
                             <option>Other</option>
                         </select>
                     </div>

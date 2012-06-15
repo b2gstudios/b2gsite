@@ -21,6 +21,9 @@
                 <h6 class="sectiontitle">Flickr Feed</h6>
                 <div id="flickr-widget">
                     <ul class="flickr-list">
+                       <div id="b2gstudiosPhotoset">
+                            
+                        </div>
                 </div>
             </div>
         </div>
@@ -29,16 +32,16 @@
 	<div class="widget">
 	<h6 class="sectiontitle">Latest Tweets</h6>
 		<div id="twitter-widget">
-						<ul class="tweet-list">
-		<div id="fromtwo"></div>
-		</ul>
-                    </div>
-                </div>
+			<ul class="tweet-list">
+		        <div id="fromtwo"></div>
+		
+        </div>
+    </div>
         </div>
 	</div>  <!-- END .footer_inner -->
     <div class="footer_bottom clearfix ">
 	<div class="left_float">Copyright © <?php echo date('Y');?> by b2gStudios. </div>     
-        <div class="right_float">Created by <a href="http://www.tomgabrysiak.com">Tom Gabrysiak</a> for <a href="#">b2gStudios</a></div>
+        <div class="right_float">Created by <a href="http://b2gstudios.com">b2gStudios</a></div>
     </div>
 </footer> <!-- END #footer -->
 <a href="#" class="totop" title="Back to top">ToTop</a>
@@ -46,6 +49,16 @@
 </div> <!-- END #page -->
 
 
+<!-- jquery -->
+<script src="files/js/jquery.isotope.min.js"></script>
+<script src="files/js/jquery.flexslider-min.js"></script>
+<script src='files/js/jquery.easing.1.3.js'></script>
+<script src='files/js/jquery.easing.compatibility.js'></script>
+<script src="files/js/jquery.fancybox.pack.js"></script>
+<script src="files/js/jquery.fancybox-1.2.6.js"></script>
+<script src="files/jplayer/jquery.jplayer.min.js"></script>
+<script src="files/js/script.js"></script>
+<script src="files/js/loader.js"></script>
 
 <script type="text/javascript">
 

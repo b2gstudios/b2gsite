@@ -1,11 +1,10 @@
 <?php
-include "includes/initialize.php";
 
 
+
+include 'header.php';
+include 'slider.php';
 ?>
-
-<?php include 'header.php';?>
-<?php include 'slider.php';?>
 <section id="main">
 <div class="main_inner wrapper clearfix">
         

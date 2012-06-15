@@ -1,11 +1,8 @@
-<?php
-include "includes/initialize.php";
 
-?>
 <?php include 'header.php';?>
 <section id="pagetitle">
 	<div class="pagetitle_inner wrapperoverlay">
-		<h2><strong>Portfolio</strong><span class="tagline">Ajax loads the project dynamically</span></h2>
+		<h2><strong>Portfolio</strong><span class="tagline">Our Latest Projects</span></h2>
     </div>
 </section>
 
@@ -14,11 +11,11 @@ include "includes/initialize.php";
     
     <div id="loadingsection">
       <div id="pageloader" class="clearfix"> 
-            <!-- CONTENT WILL BE LOADED HERE -->   
+            <!-- CONTENT WILL BE LOADED HERE -->  
       </div>
     </div>
     
-    <div id="loader"><div class="wrapper"><div class="loadingicon"><span><i>Loading</i></span></div></div></div>
+    <div id="loader"><div class="wrapper"><div class="loadingicon"><span><i>Loading...</i></span></div></div></div>
     
 </div>
 

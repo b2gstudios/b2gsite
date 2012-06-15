@@ -1,6 +1,4 @@
-<?php
-include "includes/initialize.php";
-?>
+
 <?php include 'header.php';?>
 
 

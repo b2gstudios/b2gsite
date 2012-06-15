@@ -1,13 +1,10 @@
-<?php
-include "includes/initialize.php";
 
-?>
 <?php include 'header.php';?>
 
 
 <section id="pagetitle">
 	<div class="pagetitle_inner wrapperoverlay">
-		<h2><strong>Portfolio</strong><span class="tagline">What we've done so far</span></h2>
+		<h2><strong>Portfolio</strong><span class="tagline">Our Latest Projects</span></h2>
     </div>
 </section>
 
@@ -19,15 +16,15 @@ include "includes/initialize.php";
 	<div id="slider" class="slidercontent">        
                 <div class="flexslider">
                     <ul class="slides">
-                        <li>
+                        <!-- <li>
                             <div class="imgoverlay"><a href="files/images/portfolio/work_02.jpg" class="openfancybox" rel="gallery"><img src="files/images/portfolio/work_02.jpg" /></a></div>
                         </li>
                         <li>
                             <div class="imgoverlay"><a href="files/images/portfolio/work_01.jpg" class="openfancybox" rel="gallery"><img src="files/images/portfolio/work_01.jpg" /></a></div>
-                        </li>
+                        </li>-->
                         <li>
                             <div class="imgoverlay"><a href="files/images/portfolio/work_03.jpg" class="openfancybox" rel="gallery"><img src="files/images/portfolio/work_03.jpg" /></a></div>
-                        </li>
+                        </li> 
                         <li>
                             <div class="imgoverlay"><a href="files/images/portfolio/work_04.jpg" class="openfancybox" rel="gallery"><img src="files/images/portfolio/work_04.jpg" /></a></div>
                         </li>
@@ -39,14 +36,14 @@ include "includes/initialize.php";
         
         <aside id="sidebar" class="right_float">
 	<section class="sidebar_section">
-	<h3><strong>Fermentum massa justo</strong></h3>
+	<h3><strong>Lorem ipsum</strong></h3>
                 <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer commodo tristique odio, quis fringilla ligula aliquet ut. Maecenas sed justo varius velit imperdiet bibendum. Vivamus nec sapien massa, a imperdiet diam.</p>
 				<p>
 Aliquam erat volutpat. Sed consectetur suscipit nunc et rutrum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer commodo.
                 </p>
                 <p>
-	<a href="#" class="themebutton">See Website</a>
+	<!-- <a href="#" class="themebutton">See Website</a> -->
                 </p>
             </section>
             

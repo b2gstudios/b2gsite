@@ -1,16 +1,16 @@
-
-
+<?php include 'includes/initialize.php';?>
 <!doctype html>
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="de"> <!--<![endif]-->
-<head>
-    <script>document.cookie='resolution='+Math.max(screen.width,screen.height)+("devicePixelRatio" in window ? ","+devicePixelRatio : ",1")+'; path=/';</script>
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head profile="http://www.w3.org/2005/10/profile">
+<link rel="icon" 
+      type="image/png" 
+      href="files/images/flame32x32.png" />
 <meta charset="utf-8">
 <!-- scaling not possible (for smartphones, ipad, etc.) -->
 <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
-
 <title>b2gstudios responsive web design.</title>
 <link href="files/css/fonts.css" rel="stylesheet" type="text/css" />
 <link href="files/css/style.css" rel="stylesheet" type="text/css" title="style" />
@@ -19,30 +19,79 @@
 <link href="files/css/fancybox.css" rel="stylesheet" type="text/css" />
 <link href="files/jplayer/jplayer.css" rel="stylesheet" type="text/css"  />
 <link href="files/css/mqueries.css" rel="stylesheet" type="text/css" media="screen" />
-<link href="files/colorbox/colorbox.css" rel="stylesheet" />
-<link rel="stylesheet" href="css/phone.css" type="text/css" media="screen" />
-<script src="files/colorbox/jquery.colorbox-min.js"></script>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-<script type="text/javascript" src="comments/script.js"></script>
-<script src="files/js/jquery-1.7.1.min.js"></script>
+
+
+<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+
+
 <script src="files/js/jquery.modernizr.min.js"></script>
-<script src="files/js/jquery.isotope.min.js"></script>
-<script src="files/js/jquery.flexslider-min.js"></script>
-<script src='files/js/jquery.easing.1.3.js'></script>
-<script src='files/js/jquery.easing.compatibility.js'></script>
-<script src="files/js/jquery.fancybox.pack.js"></script>
-<script src="files/jplayer/jquery.jplayer.min.js"></script>
-<script src="files/js/script.js"></script>
-<script src="files/js/loader.js"></script>
 
-<script src="files/cycle/jquery.cycle.all.min.js"></script>
-<script src="files/js/jflickrfeed.js"></script>
-<script src="files/js/setup.js"></script>
-
+<script src="files/js/jquery.tweet.js" ></script>
+<script src="comments/script.js"></script>
+<script src="files/js/flickrImport_min.js"></script>
 
 <?php tweet();?>
+<script type="text/javascript" charset="utf-8">
+    
+    /* Callback to attach fancybox once the images load */
+    function attachFancyBox()
+    {
+        $(".fancyBox").fancybox();
+    }                   
+
+    themeForest.flickrImport = new FlickrImport({
+        "calls":[
+            {
+                "method":"flickr.photosets.getPhotos",
+                "photosetId":"72157630056983179",
+                "id":"b2gstudiosPhotoset",
+
+                /*  BEGIN OPTIONAL FANCYBOX PARAMS */
+                "imageLink":"preview",     // Tells the script to grab the image url for fancybox
+                "className":"fancyBox",    // Class for attaching fancybox
+                "callback":attachFancyBox  // Once the images show attach the fancybox script
+                /* END */
+            },
+            {
+                "method":"flickr.people.getPublicPhotos",
+                "username":"b2gstudios",
+                "id":"b2gstudiosRecentPhotos",
+
+                /*  BEGIN OPTIONAL FANCYBOX PARAMS */
+                "imageLink":"preview",     // Tells the script to grab the image url for fancybox
+                "className":"fancyBox",    // Class for attaching fancybox
+                "callback":attachFancyBox  // Once the images show attach the fancybox script
+                /* END */
+            },
+            {
+                "method":"flickr.photosets.getList",
+                "username":"b2gstudios",
+                "id":"b2gstudiosPhotosets",
+                "perRow":"1"
+            },
+            {
+                "method":"flickr.favorites.getPublicList",
+                "username":"b2gstudios",
+                "id":"b2gstudiosFavorites"
+            },
+            {
+                "method":"flickr.interestingness.getList",
+                "id":"b2gstudiosInterestingness"
+            },
+            {
+                "method":"flickr.groups.pools.getPhotos",
+                "groupId":"613394@N22",
+                "id":"b2gstudiosPools"
+            }
+        ],
+        "apiKey":"1d46b7ca5cb5a08dac43bfa703efd789",
+        "secret":"97ded53f7595b624"
+    });   
+        
+    </script> 
 </head>
-<body   
+<body 
+
 <?php if (strpos($_SERVER['SCRIPT_NAME'], 'index.php') !== false){
     echo 'id="home"';
 }elseif (strpos($_SERVER['SCRIPT_NAME'], 'about.php') !== false){
@@ -68,7 +117,8 @@
 }elseif (strpos($_SERVER['SCRIPT_NAME'], 'contact.php') !== false){
     echo 'id="portfolio"';
 }
-    ?>>
+
+?>>
 <div id="page">
 <section id="top">
     <div class="top_inner wrapperoverlay clearfix">        
@@ -85,15 +135,16 @@
 	<div class="header_inner wrapper">
         <div class="header_top clearfix">
             <div id="logo" class="left_float">
-                <a class="logotype" href="index.php"><img src="files/images/logo3.png" alt="Logotype"></a>  
+                <a class="logotype" href="index.php"><img src="files/images/logo3.gif" alt="Logotype"></a>  
             </div>
             
             <nav id="nav" class="right_float">
                 <ul>
 	<li><a href="index.php" <?php if (strpos($_SERVER['SCRIPT_NAME'], 'index.php') !== false){ echo 'class="active"';}?>>Home</a></li>
 			<li><a href="about.php" <?php if (strpos($_SERVER['SCRIPT_NAME'], 'about.php') !== false){ echo 'class="active"';}?>>About</a></li>
-                    <li><a href="shortcodes.php" <?php if (strpos($_SERVER['SCRIPT_NAME'], 'shortcodes.php') !== false){ echo 'class="active"';}?>>Features</a>
-						<ul>
+            <li><a href="portfolio.php" <?php if (strpos($_SERVER['SCRIPT_NAME'], 'portfolio.php') !== false){ echo 'class="active"';}?>>Portfolio</a>
+                    
+						<!--<ul>
                             <li><a href="shortcodes.php" <?php if (strpos($_SERVER['SCRIPT_NAME'], 'shortcodes.php') !== false){ echo 'class="active"';}?>>Shortcodes</a></li>
                             <li><a href="pricingtable.php" <?php if (strpos($_SERVER['SCRIPT_NAME'], 'pricingtable.php') !== false){ echo 'class="active"';}?>>Pricing Table</a></li>
                             <li><a href="#">3r Level</a>
@@ -102,18 +153,19 @@
                                     <li><a href="#">Menu Entry two</a></li>
                                 </ul>
                             </li>
-                      </ul>
+                      </ul> -->
                     </li>
-                    <li><a href="portfolio-4-columns.php" <?php if (strpos($_SERVER['SCRIPT_NAME'], 'portfolio-4-columns.php') !== false){ echo 'class="active"';}?>>Portfolio</a>
-					<ul>
+                    <li><a href="services.php" <?php if (strpos($_SERVER['SCRIPT_NAME'], 'services.php') !== false){ echo 'class="active"';}?>>Services</a>
+					<!-- <ul>
                             <li><a href="portfolio-4-columns.php" <?php if (strpos($_SERVER['SCRIPT_NAME'], 'portfolio-4-columns.php') !== false){ echo 'class="active"';}?>>4 Columns</a></li>
                             <li><a href="portfolio-3-columns.php" <?php if (strpos($_SERVER['SCRIPT_NAME'], 'portfolio-3-columns.php') !== false){ echo 'class="active"';}?>>3 Columns</a></li>
                             <li><a href="portfolio-2-columns.php" <?php if (strpos($_SERVER['SCRIPT_NAME'], 'portfolio-2-columns.php') !== false){ echo 'class="active"';}?>>2 Columns</a></li>
-                            <li><a href="portfolio-ajax.php" <?php if (strpos($_SERVER['SCRIPT_NAME'], 'portfolio-ajax.php') !== false){ echo 'class="active"';}?>>Portfolio (Ajax)</a></li>
+                            <li><a href="portfolio.php" <?php if (strpos($_SERVER['SCRIPT_NAME'], 'portfolio.php') !== false){ echo 'class="active"';}?>>Portfolio (Ajax)</a></li>
                             <li><a href="portfolio-single.php" <?php if (strpos($_SERVER['SCRIPT_NAME'], 'portfolio-single.php') !== false){ echo 'class="active"';}?>>Portfolio Single</a></li>
-	</ul>
+	</ul> -->
 		</li>
-			<li><a href="blog.php" <?php if (strpos($_SERVER['SCRIPT_NAME'], 'blog.php') !== false){ echo 'class="active"';}?>>Blog</a></li>
+        <li><a href="prices.php" <?php if (strpos($_SERVER['SCRIPT_NAME'], 'prices.php') !== false){ echo 'class="active"';}?>>Prices</a></li>
+			
                     <li><a href="contact.php" <?php if (strpos($_SERVER['SCRIPT_NAME'], 'contact.php') !== false){ echo 'class="active"';}?>>Contact</a></li>
                 </ul>
             </nav>
@@ -122,8 +174,8 @@
    <?php
      if (strpos($_SERVER['SCRIPT_NAME'], 'index.php') !== false)  {?> 
             <div class="header_tagline seperator-section">
-            <h1><strong>Hello World, This is b2gStudios</strong></h1>
-            <h3>We specialize in responsive & dynamic web solutions.</h3>
+            <h1><strong>Hello World, We are b2gStudios</strong></h1>
+            <h3>Specializing in responsive web design & development.</h3>
         </div><?php }?>
     </div>	
 </header>

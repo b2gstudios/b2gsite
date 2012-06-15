@@ -1,12 +1,9 @@
-<?php
-include "includes/initialize.php";
-?>
 
 <?php include 'header.php';?>
 
 <section id="pagetitle">
 	<div class="pagetitle_inner wrapperoverlay">
-		<h2><strong>Shortcodes</strong><span class="tagline">Take a look to different Elements</span></h2>
+		<h2><strong>Services</strong><span class="tagline">Exceeding Customer Expectations!</span></h2>
     </div>
 </section>
 

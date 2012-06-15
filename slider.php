@@ -22,11 +22,11 @@
                     </li> -->
                     <li>
                         <img src="files/images/slider-04.png" />
-                        <div class="flex-caption"><h4><strong>Design &amp; Development </strong></h4><p>With many packages to choose from, for new business or established corporations our solutions are helping many exceed their expectations. </p></div>
+                        <div class="flex-caption"><h4><strong>Design &amp; Development </strong></h4><p>With many packages to choose from, for new business or established corporations our solutions increase search engine visibility and position. </p></div>
                     </li>
                     <li>
                         <img src="files/images/slider-06.png" />
-                        <div class="flex-caption"><h4><strong>Wordpress Ninja's</strong></h4><p>One of our specializations is Wordpress and we offer various solutions to get your Blog or eStore off on the right foot. </p></div>
+                        <div class="flex-caption"><h4><strong>Wordpress Ninja's</strong></h4><p>We offer various Wordpress solutions to get your Blog or eStore off on the right foot. </p></div>
                     </li>
                 </ul>
             </div>

@@ -1,8 +1,4 @@
-<?php
-include "includes/initialize.php";
 
-
-?>
 <?php include 'header.php';?>
 <section id="pagetitle">
     <div class="pagetitle_inner wrapperoverlay">

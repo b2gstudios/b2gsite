@@ -477,7 +477,8 @@ sub {
 
 /* paragraph rules */
 p { 
-	margin-top: 15px; 
+	margin-top: 15px;
+	text-align:justify; 
 	}
 	
 div p:first-child { 
@@ -662,7 +663,7 @@ nav {
 nav ul li {
 	float: left;
 	margin-left: 30px;
-	line-height: 50px;			/* height of the logo */
+	line-height: 67px;			/* height of the logo */
 	position: relative;
 	z-index: 10;
 	}
@@ -676,7 +677,7 @@ nav ul li a  {
 	}
 	
 nav ul li a:hover, nav ul li a.active {
-	color: #595959; text-decoration: none;
+	color: #F78547; text-decoration: none;
 	}
 
 nav ul li ul {
@@ -711,7 +712,7 @@ nav ul li ul li a {
 	}
 	
 nav ul li ul li a:hover, nav ul li ul li a.active {
-	color: #ffffff !important; text-decoration: none !important;
+	color: #F78547 !important; text-decoration: none !important;
 	}
 
 nav ul li ul li ul {
@@ -799,7 +800,7 @@ nav select option {
 
 .totop {
 	position:fixed;
-	bottom: 60px;
+	bottom: 80px;
 	right: 60px;
 	z-index: 10;
 	
@@ -1955,16 +1956,3 @@ footer #flickr-widget .flickr-list li {
 #portfolio #loader .wrapper div span {
 	display: none;
 	}
-
-a#logo1 {
-	font-family:"Rockwell Condensed";
-	font-size:18px;
-	font-weight: bold;
-}
-
-a#logo2{
-	font-family:"Rockwell Condensed";
-
-	font-size:12px;
-	color: rgb(89,89,89);
-}

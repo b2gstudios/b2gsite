@@ -28,8 +28,7 @@ function social_media() {
 }
 
 function tweet() {
-     $output = '<script language="javascript" src="files/js/jquery.tweet.js" type="text/javascript"></script>
-               <script type="text/javascript">
+     $output = '<script type="text/javascript">
                jQuery(function($){
                $(".tweet").tweet({
                username: "tomgabrysiak",
