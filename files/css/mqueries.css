@@ -130,6 +130,9 @@ div.jp-audio div.jp-type-single div.jp-progress-container {	width:160px;}
 /* QUERIES FOR IPHONE/SMARTPHONES */
 @media only screen and (max-width: 767px), only screen and (max-device-width: 480px), only screen and (max-width: 767px) {
 
+body{background: transparent url(../images/type2.png);}
+
+
 
 /* Forms
 ---------------------------------------- */
@@ -153,7 +156,7 @@ Top
 /*---------------------------------------------- 
 Logo
 ------------------------------------------------*/
-#logo  		{ float: none; width: 100%; text-align:center; margin-bottom: 40px; }
+#logo  		{  float: none; width: 100%;text-align:center; margin-bottom: 40px; }
 #logo a		{ display: inline-block; }
 
 
