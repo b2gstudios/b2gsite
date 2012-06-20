@@ -5,7 +5,7 @@
 
 <section id="pagetitle">
 	<div class="pagetitle_inner wrapperoverlay">
-		<h2><strong>Contact</strong><span class="tagline">Let's keep in touch</span></h2>
+		<h2><strong>Contact</strong><span class="tagline">Interested In Working With Us?</span></h2>
     </div>
 </section>
 
@@ -108,14 +108,14 @@
                 <h4><strong>Contact Info</strong></h4>
                 <p>
 		<strong>b2gstudios</strong><br />
-                116 Hamilton Drive<br />
+                Explosive Web Solutions<br />
                 Berlin, CT 06037
                 </p>
                 <p>
-                Phone: (1800) <br />
-                Fax: (1800) <br />
-                Website: <a href="#">dev.b2gstudios.com</a><br />
-                Email: <a href="#">info@b2gstudios.com</a>
+                <!-- Phone: (1800) <br />
+                Fax: (1800) <br /> -->
+                Website: <a href="#">b2gstudios.com</a><br />
+                Email: <a href="#">hireb2g@b2gstudios.com</a>
 	</p>
             </div>
             <div class="clear"></div>

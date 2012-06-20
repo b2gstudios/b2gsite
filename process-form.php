@@ -6,7 +6,7 @@
  * $email_address = The email address that all form submissions will be sent to
  * $company_address = The destination address that will be used in the contact form */
 
-$email_address = 'info@b2gstudios.com';
+$email_address = 'hireb2g@b2gstudios.com';
 $company_address = '116 Hamilton Drive, Berlin CT 06037';
 
 

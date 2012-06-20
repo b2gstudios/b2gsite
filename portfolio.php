@@ -1,5 +1,7 @@
 
 <?php include 'header.php';?>
+
+
 <section id="pagetitle">
 	<div class="pagetitle_inner wrapperoverlay">
 		<h2><strong>Portfolio</strong><span class="tagline">Our Latest Projects</span></h2>
@@ -25,130 +27,90 @@
         
         <article class="seperator">
         
-	<ul class="filter">
+	       <ul class="filter">
                 <li><a class="active" href="#" data-option-value="*">All</a></li>
                 <li><a href="#" data-option-value=".design">Design</a></li>
                 <li><a href="#" data-option-value=".web">Web</a></li>
                 <li><a href="#" data-option-value=".development">Development</a></li>
             </ul>
             
-	<div id="masonry" class="portfolio-entries columns4 clearfix">
-	<div class="masonry_item portfolio-entry design">
+	        <div id="masonry" class="portfolio-entries columns4 clearfix">
+	            <div class="masonry_item portfolio-entry design">
                     <div class="imgoverlay">
-                        <a href="portfolio-single.php"class="loadcontent" rel="nullam-id-dolor"><img src="files/images/portfolio/thumb-work_01.jpg" alt="Work 01"/></a>
+                        <a href="portfolio-single.php" class="loadcontent" rel="Web_Interface"><img src="files/images/portfolio/thumb-work_01.png" alt="Work 01"/></a>
                     </div>
                     <div class="portfolio-meta">
-	<h5><a href="portfolio-single.php"class="loadcontent" rel="nullam-id-dolor"><strong>Nullam id dolor</strong></a></h5>
+	                    <h5><a href="portfolio-single.php" class="loadcontent" rel="Web_Interface"><strong>Web Interface</strong></a></h5>
                         <span class="portfolio-categories">Design</span>
                     </div>
-	</div>
+	            </div>
                 
                 <div class="masonry_item portfolio-entry development">
                     <div class="imgoverlay">
-                        <a href="portfolio-single.php"class="loadcontent" rel="duo-dolores"><img src="files/images/portfolio/thumb-work_02.jpg" alt="Work 02"/></a>
+                        <a href="portfolio-single.php" class="loadcontent" rel="SPA_Website"><img src="files/images/portfolio/thumb-work_02.png" alt="Work 02"/></a>
                     </div>
                     <div class="portfolio-meta">
-	<h5><a href="portfolio-single.php"class="loadcontent" rel="duo-dolores"><strong>Duo dolores</strong></a></h5>
+	                    <h5><a href="portfolio-single.php" class="loadcontent" rel="SPA_Website"><strong>SPA Website</strong></a></h5>
                         <span class="portfolio-categories">Development</span>
                     </div>
-	</div>
+	            </div>
                 
                 <div class="masonry_item portfolio-entry development">
                     <div class="imgoverlay">
-                        <a href="portfolio-single.php"class="loadcontent" rel="takimata-sanctus"><img src="files/images/portfolio/thumb-work_03.jpg" alt="Work 03"/></a>
+                        <a href="portfolio-single.php" class="loadcontent" rel="IPhone_Store_App"><img src="files/images/portfolio/thumb-work_03.png" alt="Work 03"/></a>
                     </div>
                     <div class="portfolio-meta">
-	<h5><a href="portfolio-single.php"class="loadcontent" rel="takimata-sanctus"><strong>Takimata sanctus</strong></a></h5>
+	                    <h5><a href="portfolio-single.php" class="loadcontent" rel="IPhone_Store_App"><strong>IPhone_Store_App</strong></a></h5>
                         <span class="portfolio-categories">Development</span>
                     </div>
-	</div>
+	            </div>
                 
                 <div class="masonry_item portfolio-entry web">
                     <div class="imgoverlay">
-                        <a href="portfolio-single.php"class="loadcontent" rel="lorem-ipsum"><img src="files/images/portfolio/thumb-work_04.jpg" alt="Work 04"/></a>
+                        <a href="portfolio-single.php" class="loadcontent" rel="Branding_And_Logo"><img src="files/images/portfolio/thumb-work_04.png" alt="Work 04"/></a>
                     </div>
                     <div class="portfolio-meta">
-	<h5><a href="portfolio-single.php"class="loadcontent" rel="lorem-ipsum"><strong>Lorem ipsum</strong></a></h5>
-                        <span class="portfolio-categories">Web</span>
+	                    <h5><a href="portfolio-single.php" class="loadcontent" rel="Branding_And_Logo"><strong>Branding And Logo</strong></a></h5>
+                        <span class="portfolio-categories">Design</span>
                     </div>
-	 </div>
+	            </div>
                 
                 <div class="masonry_item portfolio-entry design">
                     <div class="imgoverlay">
-                        <a href="portfolio-single.php"class="loadcontent" rel="kasd-gubergren"><img src="files/images/portfolio/thumb-work_05.jpg" alt="Work 05"/></a>
+                        <a href="portfolio-single.php" class="loadcontent" rel="E_Commerce_Wordpress"><img src="files/images/portfolio/thumb-work_05.jpg" alt="Work 05"/></a>
                     </div>
                     <div class="portfolio-meta">
-                    	<h5><a href="portfolio-single.php"class="loadcontent" rel="kasd-gubergren"><strong>Kasd gubergren</strong></a></h5>
+	                    <h5><a href="portfolio-single.php" class="loadcontent" rel="E_Commerce_Wordpress"><strong>E Commerce Wordpress</strong></a></h5>
                         <span class="portfolio-categories">Design</span>
                     </div>
               	</div>
                 
                 <div class="masonry_item portfolio-entry web">
                     <div class="imgoverlay">
-                        <a href="portfolio-single.php"class="loadcontent" rel="accusam-et-justo"><img src="files/images/portfolio/thumb-work_06.jpg" alt="Work 06"/></a>
+                        <a href="portfolio-single.php" class="loadcontent" rel="Logo_Layout_Design"><img src="files/images/portfolio/thumb-work_06.jpg" alt="Work 06"/></a>
                     </div>
                     <div class="portfolio-meta">
-                    	<h5><a href="portfolio-single.php"class="loadcontent" rel="accusam-et-justo"><strong>Accusam et justo</strong></a></h5>
+	                    <h5><a href="portfolio-single.php" class="loadcontent" rel="Logo_Layout_Design"><strong>Logo Layout Design</strong></a></h5>
                         <span class="portfolio-categories">Web</span>
                     </div>
               	</div>
                 
                 <div class="masonry_item portfolio-entry development">
                     <div class="imgoverlay">
-                        <a href="portfolio-single.php"class="loadcontent" rel="eirmod-tempor"><img src="files/images/portfolio/thumb-work_07.jpg" alt="Work 07"/></a>
+                        <a href="portfolio-single.php" class="loadcontent" rel="Responsive_Landing_Page"><img src="files/images/portfolio/thumb-work_01.jpg" alt="Work 01"/></a>
                     </div>
                     <div class="portfolio-meta">
-                    	<h5><a href="portfolio-single.php"class="loadcontent" rel="eirmod-tempor"><strong>Eirmod tempor</strong></a></h5>
+	                    <h5><a href="portfolio-single.php" class="loadcontent" rel="Responsive_Landing_Page"><strong>Responsive Landing Page</strong></a></h5>
                         <span class="portfolio-categories">Development</span>
                     </div>
               	</div>
                 
                 <div class="masonry_item portfolio-entry web">
                     <div class="imgoverlay">
-                        <a href="portfolio-single.php"class="loadcontent" rel="invidunt"><img src="files/images/portfolio/thumb-work_08.jpg" alt="Work 08"/></a>
+                        <a href="portfolio-single.php" class="loadcontent" rel="Product_Promo_Website"><img src="files/images/portfolio/thumb-work_08.jpg" alt="Work 08"/></a>
                     </div>
                     <div class="portfolio-meta">
-                    	<h5><a href="portfolio-single.php"class="loadcontent" rel="invidunt"><strong>Invidunt</strong></a></h5>
-                        <span class="portfolio-categories">Web</span>
-                    </div>
-                </div>
-                
-                <div class="masonry_item portfolio-entry post design">
-                    <div class="imgoverlay">
-                        <a href="portfolio-single.php"class="loadcontent" rel="magna-aliguyam"><img src="files/images/portfolio/thumb-work_09.jpg" alt="Work 09"/></a>
-                    </div>
-                    <div class="portfolio-meta">
-                    	<h5><a href="portfolio-single.php"class="loadcontent" rel="magna-aliguyam"><strong>Magna aliquyam</strong></a></h5>
-                        <span class="portfolio-categories">Design</span>
-                    </div>
-              	</div>
-                
-                <div class="masonry_item portfolio-entry post web">
-                    <div class="imgoverlay">
-                        <a href="portfolio-single.php"class="loadcontent" rel="molestie"><img src="files/images/portfolio/thumb-work_10.jpg" alt="Work 10"/></a>
-                    </div>
-                    <div class="portfolio-meta">
-                    	<h5><a href="portfolio-single.php"class="loadcontent" rel="molestie"><strong>Molestie</strong></a></h5>
-                        <span class="portfolio-categories">Web</span>
-                    </div>
-              	</div>
-                
-                <div class="masonry_item portfolio-entry post development">
-                    <div class="imgoverlay">
-                        <a href="portfolio-single.php"class="loadcontent" rel="praesent-luptatum"><img src="files/images/portfolio/thumb-work_11.jpg" alt="Work 11"/></a>
-                    </div>
-                    <div class="portfolio-meta">
-                    	<h5><a href="portfolio-single.php"class="loadcontent" rel="praesent-luptatum"><strong>Praesent luptatum</strong></a></h5>
-                        <span class="portfolio-categories">Development</span>
-                    </div>
-              	</div>
-                
-                <div class="masonry_item portfolio-entry post web">
-                    <div class="imgoverlay">
-                        <a href="portfolio-single.php"class="loadcontent" rel="facilisi"><img src="files/images/portfolio/thumb-work_12.jpg" alt="Work 12"/></a>
-                    </div>
-                    <div class="portfolio-meta">
-                    	<h5><a href="portfolio-single.php"class="loadcontent" rel="facilisi"><strong>Facilisi</strong></a></h5>
+	                    <h5><a href="portfolio-single.php" class="loadcontent" rel="Product_Promo_Website"><strong>Product Promo Website</strong></a></h5>
                         <span class="portfolio-categories">Web</span>
                     </div>
                 </div>

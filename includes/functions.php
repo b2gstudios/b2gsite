@@ -17,7 +17,7 @@ function resize_me() {
 function social_media() {
      $output = '<div class="socialmedia">
                   <a class="facebook" href="http://facebook.com/tombone321" target="_blank"><span>Facebook</span></a>
-               <a class="twitter" href="http://twitter.com/tomgabrysiak" target="_blank"><span>Twitter</span></a>
+               <a class="twitter" href="http://twitter.com/b2gstudios" target="_blank"><span>Twitter</span></a>
                </div>';
      // <a class="dribbble" href="index.php" target="_blank"><span>Dribbble</span></a>
      // <a class="vimeo" href="index.php" target="_blank"><span>Vimeo</span></a>
@@ -31,7 +31,7 @@ function tweet() {
      $output = '<script type="text/javascript">
                jQuery(function($){
                $(".tweet").tweet({
-               username: "tomgabrysiak",
+               username: "b2gstudios",
                join_text: "auto",
                avatar_size: 0,
                count: 1,
@@ -43,11 +43,11 @@ function tweet() {
                loading_text: "loading tweets..."
                     });
                $("#fromtwo").tweet({
-          avatar_size: 32,
+          avatar_size: 0,
           count: 2,
-          username: "tomgabrysiak",
+          username: "b2gstudios",
           loading_text: "searching twitter...",
-          refresh_interval: 60
+          refresh_interval: 50
         });
                });
               </script>';

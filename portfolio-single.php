@@ -13,38 +13,52 @@
     <div class="main_inner wrapper clearfix">
         
         <article id="maincontent" class="left_float">
-	<div id="slider" class="slidercontent">        
+	       <div id="slider" class="slidercontent">        
                 <div class="flexslider">
                     <ul class="slides">
-                        <!-- <li>
-                            <div class="imgoverlay"><a href="files/images/portfolio/work_02.jpg" class="openfancybox" rel="gallery"><img src="files/images/portfolio/work_02.jpg" /></a></div>
+                        <li>
+                            <div class="imgoverlay"><a href="files/images/portfolio/work_01.png" class="openfancybox" rel="gallery"><img src="files/images/portfolio/work_01.png" /></a></div>
                         </li>
+
                         <li>
-                            <div class="imgoverlay"><a href="files/images/portfolio/work_01.jpg" class="openfancybox" rel="gallery"><img src="files/images/portfolio/work_01.jpg" /></a></div>
-                        </li>-->
+                            <div class="imgoverlay"><a href="files/images/portfolio/work_02.png" class="openfancybox" rel="gallery"><img src="files/images/portfolio/work_02.png" /></a></div>
+                        </li>
+                        
                         <li>
-                            <div class="imgoverlay"><a href="files/images/portfolio/work_03.jpg" class="openfancybox" rel="gallery"><img src="files/images/portfolio/work_03.jpg" /></a></div>
+                            <div class="imgoverlay"><a href="files/images/portfolio/work_03.png" class="openfancybox" rel="gallery"><img src="files/images/portfolio/work_03.png" /></a></div>
+                        </li> 
+                        <li>
+                            <div class="imgoverlay"><a href="files/images/portfolio/work_04.png" class="openfancybox" rel="gallery"><img src="files/images/portfolio/work_04.png" /></a></div>
                         </li> 
                         <li>
                             <div class="imgoverlay"><a href="files/images/portfolio/work_04.jpg" class="openfancybox" rel="gallery"><img src="files/images/portfolio/work_04.jpg" /></a></div>
-                        </li>
+                        </li> 
+                        <li>
+                            <div class="imgoverlay"><a href="files/images/portfolio/work_02.jpg" class="openfancybox" rel="gallery"><img src="files/images/portfolio/work_02.jpg" /></a></div>
+                        </li> 
+                          <li>
+                            <div class="imgoverlay"><a href="files/images/portfolio/work_03.jpg" class="openfancybox" rel="gallery"><img src="files/images/portfolio/work_03.jpg" /></a></div>
+                        </li> 
+                        <li>
+                            <div class="imgoverlay"><a href="files/images/portfolio/work_01.jpg" class="openfancybox" rel="gallery"><img src="files/images/portfolio/work_01.jpg" /></a></div>
+                        </li> 
+                      
+                       
+                     
                     </ul>
                 </div>
-            </div>
+           </div>
             
         </article>
         
         <aside id="sidebar" class="right_float">
-	<section class="sidebar_section">
-	<h3><strong>Lorem ipsum</strong></h3>
+	       <section class="sidebar_section">
+	           <h3><strong>Recent Projects</strong></h3>
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer commodo tristique odio, quis fringilla ligula aliquet ut. Maecenas sed justo varius velit imperdiet bibendum. Vivamus nec sapien massa, a imperdiet diam.</p>
-				<p>
-Aliquam erat volutpat. Sed consectetur suscipit nunc et rutrum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer commodo.
+                These are just some of our latest projects.  Each project we are involved with is special and we make sure every need is met.  We think that our unique sense of design and eye for detail puts us above the rest.
                 </p>
-                <p>
-	<!-- <a href="#" class="themebutton">See Website</a> -->
-                </p>
+				
+                
             </section>
             
             <section class="sidebar_section">
