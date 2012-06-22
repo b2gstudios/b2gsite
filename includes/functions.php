@@ -44,7 +44,7 @@ function tweet() {
                     });
                $("#fromtwo").tweet({
           avatar_size: 0,
-          count: 2,
+          count: 3,
           username: "b2gstudios",
           loading_text: "searching twitter...",
           refresh_interval: 50

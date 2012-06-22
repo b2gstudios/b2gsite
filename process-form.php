@@ -77,7 +77,9 @@ if (!empty($fields))
         {
 
             echo "<h2 class='confirm_message'>Message Sent</h2>";
-            echo "<br/><p class='confirm_message'>Thank you <strong>" . $fields['name'] . "</strong>, your message has been submitted and someone will contact you shortly.</p>";
+            echo "<br/><p class='confirm_message'>Thank you <strong>" . $fields['name'] . "</strong>, your message has been submitted to b2gStudios.  Someone will contact you shortly.</p>";?>
+            <!-- Google Code for Contact b2gStudios Conversion Page -->
+            <?php echo '<table style="padding: 1px; border-collapse: collapse; background-color: ffffff" summary="Google Site Stats"><tr><td style="font-family: arial, sans-serif; font-size: 11px; color: #000000;" align="center">Google Site Stats<br/><a href="http://www.google.com/gwt/n?u=http://services.google.com/sitestats/en.html" style="color: #000000">send feedback</a></td></tr></table><img height="1" width="1" alt="" src="http://www.googleadservices.com/pagead/conversion/1007106987/imp.gif?value=0&amp;label=G9WQCI2bjAMQq_ec4AM&amp;guid=ON&amp;script=0"/>';
         }
         else
         {

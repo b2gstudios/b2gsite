@@ -750,6 +750,13 @@ nav select option {
 /*---------------------------------------------- 
 6. Slider
 ------------------------------------------------*/
+.flex-caption a{
+	color: #F78547;
+}
+.flex-caption a:hover{
+	color: #595959;
+}
+
 #slider {
 	overflow: hidden;
 	}
@@ -765,7 +772,7 @@ nav select option {
 	}
 	
 #portfolio #slider {
-	margin-bottom: 60px;
+	
 	position: relative;
 	z-index: 2;
 	overflow: hidden;

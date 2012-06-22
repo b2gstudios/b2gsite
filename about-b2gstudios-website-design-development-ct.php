@@ -1,6 +1,7 @@
+<!-- This is the About us page -->
 
+<?php include 'ecommerce-websites-b2gstudios-ct.php';?>
 
-<?php include 'header.php';?>
 <section id="pagetitle">
     <div class="pagetitle_inner wrapperoverlay">
         <h2><strong>About Us</strong><span class="tagline">We are b2gstudios.  A Modern, Creative & Unique Web Studio.</span></h2>
@@ -17,17 +18,18 @@
             
             <div class="seperator-section"></div>
             
-	<div class="column two_third"><img title="about" src="files/images/6.png" alt="" /></div>
+	<div class="column one_third"><img title="about" src="files/images/6.png" alt="" /></div>
+    
                     
-            <div class="column one_third last">
-                <h4><strong>b2gstudios - Web Studio</strong></h4>
+            <div class="column one_third">
+                <h4><strong>b2gstudios - Web Design & Development</strong></h4>
                 
-                    <p>We are a small talented web studio with a good sense of design.  Being unique is valuable and that's the foundation of b2gStudios. The Internet is a vast universe making it difficult to stand out and grab the target audience's attention.  We've traveled this universe many times and know what it takes offering many services for those who are just starting a business to those who want to revitalize their own.  The days are gone when having a website alone will generate sales, companies spend millions on web design and development because they realize where the future lies.</p>  
-                         <p>b2gStudios appreciates talent and we've put together a band of rockstars who will make your dream a reality.  We design and develop various web solutions from starter <a href="services.php">Wordpress</a> to custom hosted <a href="services.php">eCommerce</a> applications which serve millions of users daily.  While in our infancy we decided that instead of being a jack of all trades but a master of none, we wanted to be great at one...ok maybe a few. Take a look at some of our work and services but remember to <a href="contact.php">contact us</a> if you have a question or would like more info regarding a package.</p>   
+                    <p>We are a small talented web studio with a good sense of design.  Being unique is valuable and that's the foundation of b2gStudios. Our passion is making amazing websites. When you <a href="contact-b2gstudios-responsive-websites-ct.php" title="contact b2gstudios">hire us to build yours</a>, we immediately start researching by asking you some important questions.  How do you want your website to make your users feel?, strengths your business, who are your competitors, and what speaks to people in your market. From there, we use a wireframe to make sure it's just how you want it. Once the framing is done, we begin crafting <a href="http://styletil.es/" target="_blank">styletiles</a> which define the look and feel of the site so that it fits you and your Company’s personality. Our designers are rock-stars and its very rare that we need two or three versions to nail the design.</p>  
+             <p>There is so much hard work that goes into running a business or making a product that it would be such a waste to not brand it properly. What is real and proper branding? It’s telling a story of your company or product across all forms of media and interaction with style and personality. Every time you do anything online or offline, your branding is the guide that ensures your story stays true and clear. Whether you have some existing brand elements, or need to establish a new brand, we can develop the right plan for your brand. Take a look at <a href="website-seo-develop-design-b2gstudios-ct.php" title="b2gstudios portfolio">some of our work</a> and <a href="professional-website-services-ct.php" title="b2gStudios Services">services.</a>  What are you waiting for?<a href="contact-b2gstudios-responsive-websites-ct.php" title="contact b2gstudios"> Contact us</a> so we can build you a website today.</p>   
      
               <br />
             </div>
-
+            <div class="column one_third last"><img title="about_styletiles" src="files/images/the_examiner_styletile.jpg" alt="" /></div>
             
             <div class="clear"></div>
 	
@@ -91,4 +93,4 @@
                
 	</div> <!-- END #main_inner -->     
 </section> <!-- END #main -->
-<?php include 'footer.php';?>
+<?php include 'php-websites-b2gstudios-ct.php';?>

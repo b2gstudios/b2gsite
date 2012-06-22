@@ -1,11 +1,12 @@
 
-<?php include 'header.php';?>
+<!-- This is the contact page -->
+<?php include 'ecommerce-websites-b2gstudios-ct.php';?>
 
 
 
 <section id="pagetitle">
 	<div class="pagetitle_inner wrapperoverlay">
-		<h2><strong>Contact</strong><span class="tagline">Interested In Working With Us?</span></h2>
+		<h2><strong>Contact b2gStudios</strong><span class="tagline">Do you want an awesome website? Contact b2gStudios today.</span></h2>
     </div>
 </section>
 
@@ -36,12 +37,13 @@
 </script>
 
 
+
 <section id="main">
     <div class="main_inner wrapper clearfix">
      
         <article>
             <div class="column two_third">
-                <h4><strong>Drop us a message</strong></h4>
+                <h4><strong>Let b2gStudios build you a website.</strong></h4>
                    
 
                  
@@ -89,7 +91,7 @@
                     <div class="field">
                         <label for="message">Message</label>
                         <textarea id="message" name="message" cols="15" rows="5" required="required"
-                                class="message" onFocus="if (this.value == 'MESSAGE *') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'MESSAGE *';}" rows="15" cols="50">MESSAGE *</textarea>
+                                class="message" onFocus="if (this.value == 'MESSAGE *') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'MESSAGE *';}"></textarea>
                     </div>
 
                     <div class="field submit">
@@ -124,4 +126,4 @@
         
 	</div> <!-- END #main_inner -->     
 </section> <!-- END #main -->
-<?php include 'footer.php';?>
+<?php include 'php-websites-b2gstudios-ct.php';?>

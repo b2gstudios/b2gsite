@@ -1,9 +1,9 @@
 
-<?php include 'header.php';?>
+<?php include 'ecommerce-websites-b2gstudios-ct.php';?>
 
 <section id="pagetitle">
 	<div class="pagetitle_inner wrapperoverlay">
-		<h2><strong>A la Carte</strong><span class="tagline">premium per page menu</span></h2>
+		<h2><strong>Website Prices</strong><span class="tagline">We build websites tailored for each customer, satisfaction guaranteed.</span></h2>
     </div>
 </section>
 
@@ -20,9 +20,9 @@
                  <h4><strong>PER WEBPAGE RATES & PER PROJECT FEES</strong><br><br>Click an option for details</h4>
                 
                     <p>Our per page and per project fees include custom web design work with unlimited revisions & custom coordination steps. All websites are designed and developed by hand adhering to W3C Web Standard Recommendations. We specialize in Responsive Web Design and Mobile Web Services. Just let us know if you're interested in optimizing a website for use on cell phones, tablets, smart phones, iPhones, and other hand held devices.</p>  
-                     <p>To your right are some of the more popular options offered.  For more information take a look at our<a href="services.php"> services </a>or<a href="contact.php"> contact us </a>if you have any questions or special requests.</p>
+                     <p>To your right are some of the more popular options offered.  For more information take a look at our<a href="professional-website-services-ct.php" title="professional web services"> services </a>or<a href="contact-b2gstudios-responsive-websites-ct.php" title="contact web design"> contact us </a>if you have any questions or special requests.</p>
                      <p><strong>We offer hosting ask about your options</strong></p>
-                     <p><a href="contact.php" class="signupbutton">Request A Proposal</a> </p>    
+                     <p><a href="contact-b2gstudios-responsive-websites-ct.php" title="contact b2gstudios" class="signupbutton">Request A Proposal</a> </p>    
      
               <br />
             </div>
@@ -101,4 +101,4 @@
 	</div> <!-- END #main_inner -->     
 </section> <!-- END #main -->
 
-<?php include 'footer.php';?>
+<?php include 'php-websites-b2gstudios-ct.php';?>

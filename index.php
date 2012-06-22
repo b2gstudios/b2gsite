@@ -2,8 +2,8 @@
 
 
 
-include 'header.php';
-include 'slider.php';
+include 'ecommerce-websites-b2gstudios-ct.php';
+include 'mobile-website-design-b2gstudios-ct.php';
 ?>
 <section id="main">
 <div class="main_inner wrapper clearfix">
@@ -21,80 +21,80 @@ include 'slider.php';
             <div id="masonry" class="portfolio-entries columns4 clearfix">
                 <div class="masonry_item portfolio-entry design">
                     <div class="imgoverlay">
-                        <a href="portfolio-single.php" class="loadcontent" rel="Web_Interface"><img src="files/images/portfolio/thumb-work_01.png" alt="Work 01"/></a>
+                        <a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="Web_Interface"><img src="files/images/portfolio/thumb-work_01.png" alt="Work 01"/></a>
                     </div>
                     <div class="portfolio-meta">
-                        <h5><a href="portfolio-single.php" class="loadcontent" rel="Web_Interface"><strong>Web Interface</strong></a></h5>
+                        <h5><a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="Web_Interface"><strong>Web Interface</strong></a></h5>
                         <span class="portfolio-categories">Design</span>
                     </div>
                 </div>
                 
                 <div class="masonry_item portfolio-entry development">
                     <div class="imgoverlay">
-                        <a href="portfolio-single.php" class="loadcontent" rel="SPA_Website"><img src="files/images/portfolio/thumb-work_02.png" alt="Work 02"/></a>
+                        <a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="SPA_Website"><img src="files/images/portfolio/thumb-work_02.png" alt="Work 02"/></a>
                     </div>
                     <div class="portfolio-meta">
-                        <h5><a href="portfolio-single.php" class="loadcontent" rel="SPA_Website"><strong>SPA Website</strong></a></h5>
+                        <h5><a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="SPA_Website"><strong>SPA Website</strong></a></h5>
                         <span class="portfolio-categories">Development</span>
                     </div>
                 </div>
                 
                 <div class="masonry_item portfolio-entry development">
                     <div class="imgoverlay">
-                        <a href="portfolio-single.php" class="loadcontent" rel="IPhone_Store_App"><img src="files/images/portfolio/thumb-work_03.png" alt="Work 03"/></a>
+                        <a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="IPhone_Store_App"><img src="files/images/portfolio/thumb-work_03.png" alt="Work 03"/></a>
                     </div>
                     <div class="portfolio-meta">
-                        <h5><a href="portfolio-single.php" class="loadcontent" rel="IPhone_Store_App"><strong>IPhone_Store_App</strong></a></h5>
+                        <h5><a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="IPhone_Store_App"><strong>IPhone_Store_App</strong></a></h5>
                         <span class="portfolio-categories">Development</span>
                     </div>
                 </div>
                 
                 <div class="masonry_item portfolio-entry web">
                     <div class="imgoverlay">
-                        <a href="portfolio-single.php" class="loadcontent" rel="Branding_And_Logo"><img src="files/images/portfolio/thumb-work_04.png" alt="Work 04"/></a>
+                        <a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="Branding_And_Logo"><img src="files/images/portfolio/thumb-work_04.png" alt="Work 04"/></a>
                     </div>
                     <div class="portfolio-meta">
-                        <h5><a href="portfolio-single.php" class="loadcontent" rel="Branding_And_Logo"><strong>Branding And Logo</strong></a></h5>
+                        <h5><a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="Branding_And_Logo"><strong>Branding And Logo</strong></a></h5>
                         <span class="portfolio-categories">Design</span>
                     </div>
                 </div>
                 
                 <div class="masonry_item portfolio-entry design">
                     <div class="imgoverlay">
-                        <a href="portfolio-single.php" class="loadcontent" rel="E_Commerce_Wordpress"><img src="files/images/portfolio/thumb-work_05.jpg" alt="Work 05"/></a>
+                        <a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="E_Commerce_Wordpress"><img src="files/images/portfolio/thumb-work_05.jpg" alt="Work 05"/></a>
                     </div>
                     <div class="portfolio-meta">
-                        <h5><a href="portfolio-single.php" class="loadcontent" rel="E_Commerce_Wordpress"><strong>E Commerce Wordpress</strong></a></h5>
+                        <h5><a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="E_Commerce_Wordpress"><strong>E Commerce Wordpress</strong></a></h5>
                         <span class="portfolio-categories">Design</span>
                     </div>
                 </div>
                 
                 <div class="masonry_item portfolio-entry web">
                     <div class="imgoverlay">
-                        <a href="portfolio-single.php" class="loadcontent" rel="Logo_Layout_Design"><img src="files/images/portfolio/thumb-work_06.jpg" alt="Work 06"/></a>
+                        <a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="Logo_Layout_Design"><img src="files/images/portfolio/thumb-work_06.jpg" alt="Work 06"/></a>
                     </div>
                     <div class="portfolio-meta">
-                        <h5><a href="portfolio-single.php" class="loadcontent" rel="Logo_Layout_Design"><strong>Logo Layout Design</strong></a></h5>
+                        <h5><a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="Logo_Layout_Design"><strong>Logo Layout Design</strong></a></h5>
                         <span class="portfolio-categories">Web</span>
                     </div>
                 </div>
                 
                 <div class="masonry_item portfolio-entry development">
                     <div class="imgoverlay">
-                        <a href="portfolio-single.php" class="loadcontent" rel="Responsive_Landing_Page"><img src="files/images/portfolio/thumb-work_01.jpg" alt="Work 01"/></a>
+                        <a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="Responsive_Landing_Page"><img src="files/images/portfolio/thumb-work_01.jpg" alt="Work 01"/></a>
                     </div>
                     <div class="portfolio-meta">
-                        <h5><a href="portfolio-single.php" class="loadcontent" rel="Responsive_Landing_Page"><strong>Responsive Landing Page</strong></a></h5>
+                        <h5><a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="Responsive_Landing_Page"><strong>Responsive Landing Page</strong></a></h5>
                         <span class="portfolio-categories">Development</span>
                     </div>
                 </div>
                 
                 <div class="masonry_item portfolio-entry web">
                     <div class="imgoverlay">
-                        <a href="portfolio-single.php" class="loadcontent" rel="Product_Promo_Website"><img src="files/images/portfolio/thumb-work_08.jpg" alt="Work 08"/></a>
+                        <a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="Product_Promo_Website"><img src="files/images/portfolio/thumb-work_08.jpg" alt="Work 08"/></a>
                     </div>
                     <div class="portfolio-meta">
-                        <h5><a href="portfolio-single.php" class="loadcontent" rel="Product_Promo_Website"><strong>Product Promo Website</strong></a></h5>
+                        <h5><a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="Product_Promo_Website"><strong>Product Promo Website</strong></a></h5>
                         <span class="portfolio-categories">Web</span>
                     </div>
                 </div>
@@ -107,9 +107,9 @@ include 'slider.php';
             
             <div class="column one_third seperator">
                 <div class="widget">
-                    <h6 class="sectiontitle">About b2gstudios</h6>
+                    <h6 class="sectiontitle">About b2gstudios Web Development & Design</h6>
                         <div id="text-widget">
-                            <p>We have traveled this universe many times and know what it takes offering many services for those who are just starting a business to those who want to revitalize their own. The days are gone when having a website alone will generate sales, companies spend millions on web design and development because they realize where the future lies.</p><p><a href="about.php" class="color readmore"><span class="readmoreicon">+</span>read more</a></p>
+                            <p>We have traveled this universe many times and know what it takes offering many services for those who are just starting a business to those who want to revitalize their own. The days are gone when having a website alone will generate sales, companies spend millions on web design and development because they realize where the future lies.</p><p><a href="about-b2gstudios-website-design-development-ct.php" class="color readmore"><span class="readmoreicon">+</span>read more about b2gStudios websites</a></p>
                         </div>
                 </div>
             </div>
@@ -235,7 +235,7 @@ include 'slider.php';
 
 
     
-<?php include 'footer.php';?>
+<?php include 'php-websites-b2gstudios-ct.php';?>
 
 
 
