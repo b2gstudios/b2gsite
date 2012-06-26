@@ -107,10 +107,10 @@
                 
                 <div class="masonry_item portfolio-entry web">
                     <div class="imgoverlay">
-                        <a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="Product_Promo_Website"><img src="files/images/portfolio/thumb-work_08.jpg" alt="Work 08"/></a>
+                        <a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="Baby_News"><img src="files/images/portfolio/baby_news_thumb.png" alt="Work 08"/></a>
                     </div>
                     <div class="portfolio-meta">
-	                    <h5><a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="Product_Promo_Website"><strong>Product Promo Website</strong></a></h5>
+	                    <h5><a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="Baby_News"><strong>Baby News</strong></a></h5>
                         <span class="portfolio-categories">Web</span>
                     </div>
                 </div>

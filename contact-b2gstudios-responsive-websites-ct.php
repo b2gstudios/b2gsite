@@ -6,7 +6,7 @@
 
 <section id="pagetitle">
 	<div class="pagetitle_inner wrapperoverlay">
-		<h2><strong>Contact b2gStudios</strong><span class="tagline">Do you want an awesome website? Contact b2gStudios today.</span></h2>
+		<h2><strong>Contact b2gStudios</strong><span class="tagline">Do you want a professional website?</span></h2>
     </div>
 </section>
 
@@ -114,8 +114,8 @@
                 Berlin, CT 06037
                 </p>
                 <p>
-                <!-- Phone: (1800) <br />
-                Fax: (1800) <br /> -->
+                Phone: 1(800) 725-7840
+               <!--  Fax: (1800) --><br /> 
                 Website: <a href="#">b2gstudios.com</a><br />
                 Email: <a href="#">hireb2g@b2gstudios.com</a>
 	</p>

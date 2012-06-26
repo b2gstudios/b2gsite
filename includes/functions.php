@@ -35,11 +35,11 @@ function tweet() {
                join_text: "auto",
                avatar_size: 0,
                count: 1,
-               auto_join_text_default: "we said,",
-               auto_join_text_ed: "we",
-               auto_join_text_ing: "we were",
-               auto_join_text_reply: "we replied to",
-               auto_join_text_url: "we were checking out",
+               auto_join_text_default: "",
+               auto_join_text_ed: "",
+               auto_join_text_ing: "",
+               auto_join_text_reply: "",
+               auto_join_text_url: "",
                loading_text: "loading tweets..."
                     });
                $("#fromtwo").tweet({

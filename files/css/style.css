@@ -607,7 +607,7 @@ header .header_inner {
 	}
 	
 .header_top {
-	padding-bottom: 40px;
+	padding-bottom: 20px;
 	}
 	
 .header_tagline {
@@ -667,7 +667,7 @@ nav {
 	
 nav ul li {
 	float: left;
-	margin-left: 30px;
+	margin-left: 20px;
 	line-height: 67px;			/* height of the logo */
 	position: relative;
 	z-index: 10;
@@ -822,7 +822,7 @@ nav select option {
 	background: #000000 url(../images/top.png) no-repeat center center;
 	opacity: 0.5;
 	filter: alpha(opacity = 50);
-	text-indent: -9999px;
+	text-indent: 9999px;
 	
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;

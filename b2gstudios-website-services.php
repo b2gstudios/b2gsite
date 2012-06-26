@@ -3,7 +3,7 @@
 <?php include 'header.php';?>
 <section id="pagetitle">
     <div class="pagetitle_inner wrapperoverlay">
-        <h2><strong>Services</strong><span class="tagline">Small List Of Services Below.  Possibilities......Endless</span></h2>
+        <h2><strong>Services</strong><span class="tagline">Possibilities......Endless</span></h2>
     </div>
 </section>
 
