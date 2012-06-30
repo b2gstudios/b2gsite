@@ -16,7 +16,7 @@ function resize_me() {
 
 function social_media() {
      $output = '<div class="socialmedia">
-                  <a class="facebook" href="http://facebook.com/tombone321" target="_blank"><span>Facebook</span></a>
+                  <a class="facebook" href="http://facebook.com/b2gstudios" target="_blank"><span>Facebook</span></a>
                <a class="twitter" href="http://twitter.com/b2gstudios" target="_blank"><span>Twitter</span></a>
                </div>';
      // <a class="dribbble" href="index.php" target="_blank"><span>Dribbble</span></a>

@@ -53,7 +53,19 @@
 <script src="files/js/elemental.min.js"></script>
 <script src="files/js/rappar.js"></script>
 <script src="files/js/jquery.vectron.js"></script>
+<script src="files/js/jquery-picture-min.js"></script>
  <?php tweet();?>
+
+ <!-- Initializes Responsive Image Script -->
+<script type="text/javascript">
+
+$(function(){
+    $('figure, picture').picture();
+});
+
+</script>
+
+
 <script>
         $(document).ready(function(){
             $('.svg').vectron({ scale:1});
@@ -194,7 +206,7 @@
      if (strpos($_SERVER['SCRIPT_NAME'], 'index.php') !== false)  {?> 
             <div class="header_tagline seperator-section">
             <h1><strong>Hello World, We Are b2gStudios</strong></h1>
-            <h3>A Professional Web Studio, Specializing In Premium Responsive Websites.</h3>
+            <h3>Professional Hand-Coded Websites, Tailored For You And Your Business.</h3>
             </div><?php };?>
     </div>  
 </header>
