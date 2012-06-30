@@ -1,0 +1,328 @@
+
+*{ margin:0; padding:0;}
+a{
+	outline:none;
+    color: #f78547;
+}
+
+body{
+	background-repeat:repeat;
+    line-height: 1.6em;
+	font-weight:normal;
+    color: #cccccc;
+}
+.logo{
+	left: 0;
+    position: absolute;
+}
+.logo img,
+.logo img a{
+	border:none;
+}
+
+/*** Change Background ***/
+#bg_1{
+    background-image:url("../files/images/type3.png");
+}
+
+
+/*** Change Theme ***/
+.change_theme{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 0 6px 0 0;
+    -moz-border-radius: 0 6px 0 0;
+    border-right: 1px solid #f78547;;
+    border-top: 1px solid #f78547;;
+    border-bottom: 1px solid #f78547;;
+    font-family: Arial;
+    font-size: 12px;
+    left: 0;
+    padding: 5px 15px;
+    position: absolute;
+    text-decoration: none;
+    top: 100px;
+}
+.change_theme_2{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 0 6px 0 0;
+    -moz-border-radius: 0 6px 0 0;
+    border: 1px solid #f78547;;
+    font-family: Arial;
+    font-size: 12px;
+    left: 0;
+    padding: 5px 15px;
+    position: absolute;
+    text-decoration: none;
+    top: 100px;
+}
+.change_theme:hover{
+	cursor:pointer;
+	color:#BF3F3F;
+}
+.options{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 0 6px 6px 0;
+    box-shadow: 1px 1px 0 #CED2D8;
+    display: block;
+    left: 0;
+    padding: 10px 10px 10px 15px;
+    position: absolute;
+    top: 135px;
+    width: 125px;
+}
+.options ul li{
+    display: inline-block;
+    height: 25px;
+    list-style: none outside none;
+    margin: 3px 1px;
+    width: 25px;
+}
+.options a{
+	width:25px;
+	height:25px;
+	display:inline-block;
+	text-indent:-9999px;
+}
+.color_comb{
+    border-bottom: 1px solid #CED2D8;
+    display: block;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    line-height: 17px;
+    margin-bottom: 3px;
+    padding-top: 5px;
+}
+.bgul li a{
+	border:1px solid #CED2D8;
+}
+
+
+@font-face {
+    font-family: 'Yanone Kaffeesatz';
+    src: url('font/YanoneKaffeesatz-Regular-webfont.eot');
+    src: url('font/YanoneKaffeesatz-Regular-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('font/YanoneKaffeesatz-Regular-webfont.woff') format('woff'),
+         url('font/YanoneKaffeesatz-Regular-webfont.ttf') format('truetype'),
+         url('font/YanoneKaffeesatz-Regular-webfont.svg#YanoneKaffeesatzRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.custom_font{
+    font-family: 'Yanone Kaffeesatz',arial,serif;
+    font-variant: normal;
+    font-weight: normal;
+    white-space: normal;
+}
+
+/*** Illustrations ***/
+
+.ufo{
+    display: block;
+    height: 149px;
+    position: absolute;
+    right: 150px;
+    top: 15px;
+    width: 200px;
+}
+
+.brown_1 .ufo-image,
+.brown_2 .ufo-image{
+    background: url("ufo-brown.png") no-repeat scroll 0 0 transparent;
+}
+
+
+/*** Layout Holders ***/
+
+.text_1,
+.text_2,
+.text_3,
+.text_4,
+.buttons_1,
+.seach_1,
+.links_1{
+	display: block;
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
+/*** Layout Margins ***/
+
+.text_1{
+    margin: 34px 0 0;
+}
+.text_2{
+    margin: 75px 0 0;
+}
+.text_3{
+    margin: 15px 0 0;
+    color: #f78547;
+}
+.text_4{
+    margin: 60px 0 0;
+}
+.buttons_1{
+    margin: 33px 0 0;
+}
+.seach_1{
+    margin: 15px 0 0;
+}
+.links_1{
+    margin: 15px 0 0;
+}
+
+/*** Layout Typo ***/
+
+.text_2{
+    font-size: 100px;
+    line-height: 1.3em;
+	letter-spacing:1px;
+}
+.solutions_text{
+	font-size:24px;
+}
+.reasons_big{
+	font-size:36px;
+}
+.reasons_small{
+	font-size:30px;
+}
+.reasons_big,
+.reasons_small{
+	line-height:1.2em;
+}
+
+/*** Text And Backgrounds ***/
+
+.error_main{
+    background: url("guideline_bg.png") no-repeat scroll center 11px transparent;
+    height: 650px;
+    margin: 0 auto;
+    max-height: 100%;
+    width: 960px;
+	position:relative;
+}
+.error_text_span{
+    border-bottom: 3px solid #f78547;
+    border-top: 3px solid #f78547;
+    color: #f78547;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: normal;
+    line-height: 1.3em;
+    padding: 0 20px 2px;
+}
+
+/*** Search Form Elements ***/
+
+.seach_1 form{
+	width:335px;
+	margin:0 auto;
+}
+
+.input_search{
+    background: url("input_search.png") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #f78547;
+    display: block;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: normal;
+    height: 43px;
+    padding: 0 60px 0 10px;
+    text-shadow: 0 1px 0 #FFFFFF;
+    width: 265px;
+}
+.input_search{padding-top: 13px \0/;}
+.search_button{margin-top: -61px \0/;}
+/*** Button Elements ***/
+
+.buttons_1 a{
+	display:block;
+	height:52px;
+	width:195px;
+	text-indent:-9999px;
+	font-size:0;
+}
+.buttons_1 a:hover{
+	background-position:0 -54px;
+}
+
+.search_button{
+    background: url("search_button.png") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    display: block;
+    float: right;
+    font-size: 0;
+    height: 58px;
+    margin: -49px 20px 0 0;
+    text-indent: -9999px;
+    width: 42px;
+}
+.search_button:hover{
+	cursor:pointer;
+}
+.search_button{margin-top: -61px \0/;}
+.input_search{padding-top: 13px \0/;}
+/*** Links Footer ***/
+.links_1 ul{
+	display:inline-block;
+}
+.links_1 ul li{
+    list-style: none outside none;
+    float:left;
+	margin:0 5px;
+	float:left;
+}
+.links_1 ul li a{
+	font-size:20px;
+	text-decoration:none;
+}
+.links_1 ul li a:hover{
+    -o-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+
+}
+
+/*** Color Variations ***/
+
+
+/*** BROWN ***/
+
+/*** ----------------BROWN 1 ***/
+
+.brown_1 .error_type{
+	color:red;
+}
+.brown_1 .home{
+	background:url("../files/images/home_brown_1.png") no-repeat;
+	float:left;
+	margin:0 0 0 130px;
+}
+.brown_1 .contact{
+    background:url("../files/images/contact_brown_1.png") no-repeat;
+	float:right;
+	margin:0 130px 0 0;
+}
+
+/*** ----------------BROWN 2 ***/
+
+.brown_2 .error_type{
+	color:red;
+}
+.brown_2 .home{
+	background:url("../files/images/home_brown_2.png") no-repeat;
+	float:left;
+	margin:0 0 0 130px;
+}
+.brown_2 .contact{
+    background:url("../files/images/contact_brown_2.png") no-repeat;
+	float:right;
+	margin:0 130px 0 0;
+}

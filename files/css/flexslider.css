@@ -47,10 +47,10 @@ html[xmlns] .slides {display: block;}
 .flex-caption h1, .flex-caption h2, .flex-caption h3, .flex-caption h4, .flex-caption h5, .flex-caption h6   { color: #ffffff; margin: 0; }
 
 /* Direction Nav */
-.flex-direction-nav li a {width: 30px; height: 30px;display: block; position: absolute; top: 30px; cursor: pointer; text-indent: -9999px; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px;}
+.flex-direction-nav li a {width: 30px; height: 30px;display: block; position: absolute; top: 30px; cursor: pointer; text-indent: 9999px; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px;}
 .flex-direction-nav li .next {background: #4d4d4d url(../images/next.png) no-repeat center center; left: 70px;}
 .flex-direction-nav li .prev {background: #4d4d4d url(../images/prev.png) no-repeat center center; left: 30px;}
-.flex-direction-nav li a:hover { background-color: #2db6cf; }
+.flex-direction-nav li a:hover { background-color: #f78547; }
 .flex-direction-nav li .disabled {opacity: .3; filter:alpha(opacity=30); cursor: default;}
 
 #home .entry .slidercontent .flex-direction-nav li a {

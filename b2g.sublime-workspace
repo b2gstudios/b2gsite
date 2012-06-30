@@ -3,32 +3,80 @@
 	{
 		"selected_items":
 		[
+			[
+				"rep",
+				"no-repeat"
+			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "files/css/style.css",
+			"settings":
+			{
+				"buffer_size": 42594,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "404.php",
+			"settings":
+			{
+				"buffer_size": 5818,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ecommerce-websites-b2gstudios-ct.php",
+			"settings":
+			{
+				"buffer_size": 10262,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "404/style.css",
+			"settings":
+			{
+				"buffer_size": 6164,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 375.0,
 		"selected_items":
 		[
-			[
-				"sou",
-				"SourceTree: Open SourceTree"
-			],
 			[
 				"sour",
 				"SourceTree: Open SourceTree"
 			],
 			[
-				"form",
-				"Format: Javascript"
+				"ins",
+				"Package Control: Install Package"
 			],
 			[
 				"inst",
 				"Package Control: Install Package"
+			],
+			[
+				"the",
+				"Themr: Nil"
+			],
+			[
+				"th",
+				"Themr: Refresh"
+			],
+			[
+				"sou",
+				"SourceTree: Open SourceTree"
+			],
+			[
+				"form",
+				"Format: Javascript"
 			],
 			[
 				"insta",
@@ -37,10 +85,6 @@
 			[
 				"remo",
 				"Package Control: Remove Package"
-			],
-			[
-				"ins",
-				"Package Control: Install Package"
 			],
 			[
 				"rem",
@@ -59,7 +103,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 602.0
+		"width": 606.0
 	},
 	"console":
 	{
@@ -76,9 +120,55 @@
 	},
 	"file_history":
 	[
+		"/Applications/MAMP/htdocs/b2gsite/contact-b2gstudios-responsive-websites-ct.php",
+		"/Applications/MAMP/htdocs/b2gsite/.htaccess",
+		"/Applications/MAMP/htdocs/b2gsite/404/404.php",
+		"/Applications/MAMP/htdocs/b2gsite/404.php",
+		"/Applications/MAMP/htdocs/b2gsite/404.html",
+		"/Users/tomgabrysiak/Google Drive/404modern/404.html",
+		"/Applications/MAMP/htdocs/b2gsite/index.php",
+		"/Applications/MAMP/htdocs/b2gsite/ecommerce-websites-b2gstudios-ct.php",
+		"/Applications/MAMP/htdocs/b2gsite/website-seo-develop-design-b2gstudios-ct.php",
+		"/Applications/MAMP/htdocs/b2gsite/professional-websites-b2gstudios-ct.php",
+		"/Applications/MAMP/htdocs/b2gsite/sitemap.xml",
+		"/Applications/MAMP/htdocs/b2gsite/mobile-website-design-b2gstudios-ct.php",
+		"/Applications/MAMP/htdocs/b2gsite/files/css/style.css",
+		"/Applications/MAMP/htdocs/b2gsite/files/css/flexslider.css",
+		"/Applications/MAMP/htdocs/b2gsite/quality-websites.php",
+		"/Applications/MAMP/htdocs/b2gsite/ga.php",
+		"/Applications/MAMP/htdocs/b2gsite/files/css/fancybox.css",
+		"/Applications/MAMP/htdocs/b2gsite/sftp-config.json",
+		"/Users/tomgabrysiak/Desktop/3/validatereg.php",
+		"/Applications/MAMP/htdocs/b2gsite/about-b2gstudios-website-design-development-ct.php",
+		"/Applications/MAMP/htdocs/b2gsite/php-websites-b2gstudios-ct.php",
+		"/Applications/MAMP/htdocs/b2gsite/professional-website-services-ct.php",
+		"/Applications/MAMP/htdocs/b2gsite/wordpress-website-development-design-ct.php",
+		"/Applications/MAMP/htdocs/b2gsite/includes/functions.php",
+		"/Applications/MAMP/htdocs/b2gsite/files/images/slider-05.png",
+		"/Applications/MAMP/htdocs/b2gsite/process-form.php",
+		"/Applications/MAMP/htdocs/b2gsite/error_log",
+		"/Applications/MAMP/htdocs/b2gsite/files/css/mqueries.css",
+		"/Applications/MAMP/htdocs/b2gsite/ecommerce-websites-b2gstudios.ct.php",
+		"/Applications/MAMP/htdocs/b2gsite/includes/initialize.php",
+		"/Applications/MAMP/htdocs/b2gsite/b2g.sublime-workspace",
+		"/Applications/MAMP/htdocs/b2gsite/mobile-website-design-b2gstuios-ct.php",
+		"/Applications/MAMP/htdocs/b2gsite/b2gstudios-website-services.php",
+		"/Applications/MAMP/htdocs/b2gsite/dynamic-web-solutions-b2gstudios-connecticut.php",
+		"/Applications/MAMP/htdocs/b2gsite/experienced-web-studio-design-b2gstudios-ct.php",
+		"/Applications/MAMP/htdocs/b2gsite/experienced-webstudio-design-b2gstudios-ct.php",
+		"/Applications/MAMP/htdocs/b2gsite/unique-webstudio-ct.php",
+		"/Applications/MAMP/htdocs/b2gsite/dynamic-websites-b2gstudios-connecticut.php",
+		"/Applications/MAMP/htdocs/b2gsite/portfolio.php",
+		"/Applications/MAMP/htdocs/b2gsite/footer.php",
+		"/Applications/MAMP/htdocs/b2gsite/header.php",
+		"/Applications/MAMP/htdocs/b2gsite/files/css/isotope.css",
+		"/Applications/MAMP/htdocs/b2gsite/files/js/jquery.tweet.js",
+		"/Applications/MAMP/htdocs/b2gsite/files/images/logo.svg",
+		"/Applications/MAMP/htdocs/b2gsite/files/css/monitor.css",
+		"/Applications/MAMP/htdocs/b2gsite/files/images/sftp-config.json",
+		"/Users/tomgabrysiak/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Applications/MAMP/htdocs/b2gsite/github.php",
 		"/Applications/MAMP/htdocs/b2gsite/index.html",
-		"/Applications/MAMP/htdocs/b2gsite/index.php",
 		"/Users/tomgabrysiak/Downloads/Codecanyon - plum.Form - A jQuery Form Styling Tool (Full Rip)/index.html",
 		"/Applications/MAMP/htdocs/awsomeproject/index.html",
 		"/Users/tomgabrysiak/Downloads/Codecanyon - plum.Form - A jQuery Form Styling Tool (Full Rip)/js/jquery.plum.form.js",
@@ -119,6 +209,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -126,6 +217,34 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"images/",
+			"q required",
+			"b2gsite",
+			"website-seo-develop-design-b2gstudios-ct.php",
+			"php-websites-b2gstudios-ctq.php",
+			"website-seo-develop-design-b2gstudios-ct.php",
+			"ecommerce-websites-ct.php",
+			"about-b2gstudios-website-design-development.php",
+			"ecommerce-websites-b2gstudios.php",
+			"ecommerce-websites-b2gstudios.ct.php",
+			"contact.php",
+			"sliders.php",
+			"slider.php",
+			"footer.php",
+			"url",
+			"portfolio.php",
+			"portfolio-single.php",
+			"portfolio.php",
+			"about.php",
+			"services.php",
+			"prices.php",
+			"contact.php",
+			"php-websites-b2gstuidos-ct.php",
+			"footer.php",
+			"header.php",
+			"logo",
+			"logotype",
+			"logo",
 			"wrapper"
 		],
 		"highlight": true,
@@ -134,6 +253,23 @@
 		"regex": false,
 		"replace_history":
 		[
+			"../files/images/",
+			"b2gwebsitesct",
+			"professional-websites-b2gstudios-ct.php",
+			"ecommerce-websites-b2gstudios-ct.php",
+			"about-b2gstudios-website-design-development-ct.php",
+			"ecommerce-websites-b2gstudios-ct.php",
+			"contact-b2gstudios-responsive-websites-ct.php",
+			"mobile-website-design-b2gstudios-ct.php",
+			"php-websites-b2gstudios-ct.php",
+			"website-seo-develop-design-b2gstudios-ct.php",
+			"about-b2gstudios-website-design-development.php",
+			"professional-website-services-ct.php",
+			"wordpress-website-development-design-ct.php",
+			"contact-b2gstudios-responsive-websites-ct.php",
+			"php-websites-b2gstudios-ct.php",
+			"php-websites-b2gstuidos-ct.php",
+			"ecommerce-websites-ct.php"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -144,8 +280,462 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "files/css/style.css",
+					"settings":
+					{
+						"buffer_size": 42594,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								215,
+								208
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"text-indent": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": true,
+							"sublimelinter_delay": 0.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": true,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": true,
+							"sublimelinter_syntax_map":
+							{
+								"Python Django": "python"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "404.php",
+					"settings":
+					{
+						"buffer_size": 5818,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"text-indent": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": true,
+							"sublimelinter_delay": 0.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": true,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": true,
+							"sublimelinter_syntax_map":
+							{
+								"Python Django": "python"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 229.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "ecommerce-websites-b2gstudios-ct.php",
+					"settings":
+					{
+						"buffer_size": 10262,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8235,
+								8333
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"text-indent": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": true,
+							"sublimelinter_delay": 0.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": true,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": true,
+							"sublimelinter_syntax_map":
+							{
+								"Python Django": "python"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "404/style.css",
+					"settings":
+					{
+						"buffer_size": 6164,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"text-indent": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": true,
+							"sublimelinter_delay": 0.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": true,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": true,
+							"sublimelinter_syntax_map":
+							{
+								"Python Django": "python"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 11.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -182,11 +772,11 @@
 	"menu_visible": true,
 	"output.sftp":
 	{
-		"height": 0.0
+		"height": 98.0
 	},
 	"replace":
 	{
-		"height": 0.0
+		"height": 68.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -209,6 +799,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 285.0,
+	"side_bar_width": 367.0,
 	"status_bar_visible": true
 }

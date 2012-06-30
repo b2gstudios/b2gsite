@@ -94,7 +94,7 @@ html {
 
 body {
 	font-family: 'PTSansRegular', Helvetica, Arial, sans-serif; font-size:12px; color:#999999; text-align: left; line-height:18px;
-	background: transparent url(../images/type2.png);
+	background: transparent url(../images/type3.png);
 	}
 ::selection { background:#f78547; color:#fff; }
 ::-moz-selection { background:#f78547; color:#fff; }
@@ -105,7 +105,7 @@ body {
 ---------------------------------------- */
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'PTSansRegular',Helvetica, Arial, sans-serif;
-	color: #595959;
+	color: #545d61;
 	font-weight: normal;
 	}
 
@@ -376,9 +376,14 @@ img, object, video {
 	height: auto;
 	display:block;
 	}
+
+li.start{
+	width:100px;
+}
+
 	
 img {
-	width: auto;
+	width: 100%;
 	max-width: 100%; 
 	border: 0;
 	-ms-interpolation-mode: bicubic;
@@ -594,7 +599,7 @@ div pre:first-child {
 3. Header
 ------------------------------------------------*/
 header {
-	margin-top:70px;			/* Same as height from #top */
+	margin-top:50px;			/* Same as height from #top */
 	}
 	
 header .header_inner {
@@ -602,7 +607,7 @@ header .header_inner {
 	}
 	
 .header_top {
-	padding-bottom: 40px;
+	padding-bottom: 20px;
 	}
 	
 .header_tagline {
@@ -621,7 +626,7 @@ header .header_inner {
 4. Top
 ------------------------------------------------*/
 #top {	                 	
-      	min-height: 70px;				/* Same as margin-top from header */
+      	min-height: 50px;				/* Same as margin-top from header */
       	position: absolute;
       	left: 0;
       	width: 100%;
@@ -662,7 +667,7 @@ nav {
 	
 nav ul li {
 	float: left;
-	margin-left: 30px;
+	margin-left: 20px;
 	line-height: 67px;			/* height of the logo */
 	position: relative;
 	z-index: 10;
@@ -745,6 +750,13 @@ nav select option {
 /*---------------------------------------------- 
 6. Slider
 ------------------------------------------------*/
+.flex-caption a{
+	color: #F78547;
+}
+.flex-caption a:hover{
+	color: #595959;
+}
+
 #slider {
 	overflow: hidden;
 	}
@@ -760,7 +772,7 @@ nav select option {
 	}
 	
 #portfolio #slider {
-	margin-bottom: 60px;
+	
 	position: relative;
 	z-index: 2;
 	overflow: hidden;
@@ -810,7 +822,7 @@ nav select option {
 	background: #000000 url(../images/top.png) no-repeat center center;
 	opacity: 0.5;
 	filter: alpha(opacity = 50);
-	text-indent: -9999px;
+	text-indent: 9999px;
 	
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
@@ -1732,7 +1744,7 @@ div .widget:first-child {
 	}
 
 #top .widget {
-	line-height: 30px;
+	line-height: 20px;
 }
 
 
@@ -1956,3 +1968,11 @@ footer #flickr-widget .flickr-list li {
 #portfolio #loader .wrapper div span {
 	display: none;
 	}
+
+.svg{
+	bottom:20px;
+margin:10px;
+position:relative;
+
+}
+

@@ -2,8 +2,8 @@
 
 
 
-include 'header.php';
-include 'slider.php';
+include 'ecommerce-websites-b2gstudios-ct.php';
+include 'mobile-website-design-b2gstudios-ct.php';
 ?>
 <section id="main">
 <div class="main_inner wrapper clearfix">
@@ -19,165 +19,143 @@ include 'slider.php';
             
             
             <div id="masonry" class="portfolio-entries columns4 clearfix">
-	<div class="masonry_item portfolio-entry design">
+                <div class="masonry_item portfolio-entry design">
                     <div class="imgoverlay">
-                        <a href="portfolio-single.php" class="loadcontent" rel="nullam-id-dolor"><img src="files/images/portfolio/thumb-work_01.jpg" alt="Work 01"/></a>
+                        <a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="Web_Interface"><img src="files/images/portfolio/thumb-work_01.png" alt="Work 01"/></a>
                     </div>
                     <div class="portfolio-meta">
-	<h5><a href="portfolio-single.php" class="loadcontent" rel="nullam-id-dolor"><strong>Nullam id dolor</strong></a></h5>
+                        <h5><a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="Web_Interface"><strong>Web Interface</strong></a></h5>
                         <span class="portfolio-categories">Design</span>
                     </div>
-	</div>
+                </div>
                 
                 <div class="masonry_item portfolio-entry development">
                     <div class="imgoverlay">
-                        <a href="portfolio-single.php" class="loadcontent" rel="duo-dolores"><img src="files/images/portfolio/thumb-work_02.jpg" alt="Work 02"/></a>
+                        <a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="SPA_Website"><img src="files/images/portfolio/thumb-work_02.png" alt="Work 02"/></a>
                     </div>
                     <div class="portfolio-meta">
-	<h5><a href="portfolio-single.php" class="loadcontent" rel="duo-dolores"><strong>Duo dolores</strong></a></h5>
+                        <h5><a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="SPA_Website"><strong>SPA Website</strong></a></h5>
                         <span class="portfolio-categories">Development</span>
                     </div>
-	</div>
+                </div>
                 
                 <div class="masonry_item portfolio-entry development">
                     <div class="imgoverlay">
-                        <a href="portfolio-single.php" class="loadcontent" rel="takimata-sanctus"><img src="files/images/portfolio/thumb-work_03.jpg" alt="Work 03"/></a>
+                        <a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="IPhone_Store_App"><img src="files/images/portfolio/thumb-work_03.png" alt="Work 03"/></a>
                     </div>
                     <div class="portfolio-meta">
-	<h5><a href="portfolio-single.php" class="loadcontent" rel="takimata-sanctus"><strong>Takimata sanctus</strong></a></h5>
+                        <h5><a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="IPhone_Store_App"><strong>IPhone_Store_App</strong></a></h5>
                         <span class="portfolio-categories">Development</span>
                     </div>
-	</div>
+                </div>
                 
                 <div class="masonry_item portfolio-entry web">
                     <div class="imgoverlay">
-                        <a href="portfolio-single.php" class="loadcontent" rel="lorem-ipsum"><img src="files/images/portfolio/thumb-work_04.jpg" alt="Work 04"/></a>
+                        <a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="Branding_And_Logo"><img src="files/images/portfolio/thumb-work_04.png" alt="Work 04"/></a>
                     </div>
                     <div class="portfolio-meta">
-	<h5><a href="portfolio-single.php" class="loadcontent" rel="lorem-ipsum"><strong>Lorem ipsum</strong></a></h5>
-                        <span class="portfolio-categories">Web</span>
+                        <h5><a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="Branding_And_Logo"><strong>Branding And Logo</strong></a></h5>
+                        <span class="portfolio-categories">Design</span>
                     </div>
-	 </div>
+                </div>
                 
                 <div class="masonry_item portfolio-entry design">
                     <div class="imgoverlay">
-                        <a href="portfolio-single.php" class="loadcontent" rel="kasd-gubergren"><img src="files/images/portfolio/thumb-work_05.jpg" alt="Work 05"/></a>
+                        <a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="E_Commerce_Wordpress"><img src="files/images/portfolio/thumb-work_05.jpg" alt="Work 05"/></a>
                     </div>
                     <div class="portfolio-meta">
-	<h5><a href="portfolio-single.php" class="loadcontent" rel="kasd-gubergren"><strong>Kasd gubergren</strong></a></h5>
+                        <h5><a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="E_Commerce_Wordpress"><strong>E Commerce Wordpress</strong></a></h5>
                         <span class="portfolio-categories">Design</span>
                     </div>
-	</div>
+                </div>
                 
                 <div class="masonry_item portfolio-entry web">
                     <div class="imgoverlay">
-                        <a href="portfolio-single.php" class="loadcontent" rel="accusam-et-justo"><img src="files/images/portfolio/thumb-work_06.jpg" alt="Work 06"/></a>
+                        <a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="Logo_Layout_Design"><img src="files/images/portfolio/thumb-work_06.jpg" alt="Work 06"/></a>
                     </div>
                     <div class="portfolio-meta">
-	<h5><a href="portfolio-single.php" class="loadcontent" rel="accusam-et-justo"><strong>Accusam et justo</strong></a></h5>
-                        <span class="portfolio-categories">Web</span>
-                    </div>
-	</div>
-                
-                <div class="masonry_item portfolio-entry development">
-                    <div class="imgoverlay">
-                        <a href="portfolio-single.php" class="loadcontent" rel="eirmod-tempor"><img src="files/images/portfolio/thumb-work_07.jpg" alt="Work 07"/></a>
-                    </div>
-                    <div class="portfolio-meta">
-	<h5><a href="portfolio-single.php" class="loadcontent" rel="eirmod-tempor"><strong>Eirmod tempor</strong></a></h5>
-                        <span class="portfolio-categories">Development</span>
-                    </div>
-	</div>
-                
-                <div class="masonry_item portfolio-entry web">
-                    <div class="imgoverlay">
-                        <a href="portfolio-single.php" class="loadcontent" rel="invidunt"><img src="files/images/portfolio/thumb-work_08.jpg" alt="Work 08"/></a>
-                    </div>
-                    <div class="portfolio-meta">
-	<h5><a href="portfolio-single.php" class="loadcontent" rel="invidunt"><strong>Invidunt</strong></a></h5>
+                        <h5><a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="Logo_Layout_Design"><strong>Logo Layout Design</strong></a></h5>
                         <span class="portfolio-categories">Web</span>
                     </div>
                 </div>
-            </div><!-- END #masonry -->
-        
+                
+                <div class="masonry_item portfolio-entry development">
+                    <div class="imgoverlay">
+                        <a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="Responsive_Landing_Page"><img src="files/images/portfolio/thumb-work_01.jpg" alt="Work 01"/></a>
+                    </div>
+                    <div class="portfolio-meta">
+                        <h5><a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="Responsive_Landing_Page"><strong>Responsive Landing Page</strong></a></h5>
+                        <span class="portfolio-categories">Development</span>
+                    </div>
+                </div>
+                
+                <div class="masonry_item portfolio-entry web">
+                    <div class="imgoverlay">
+                        <a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="Baby_News"><img src="files/images/portfolio/baby_news_thumb.png" alt="Baby News"/></a>
+                    </div>
+                    <div class="portfolio-meta">
+                        <h5><a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="Baby_News"><strong>Baby_News</strong></a></h5>
+                        <span class="portfolio-categories">Web</span>
+                    </div>
+                </div>
+            </div><!-- END #masonry --> 
         </div><!-- END #recentworks -->
         
         
         <div id="latestnews" class="seperator">
-	<h6 class="sectiontitle">Latest News</h6>
+	    <h6 class="sectiontitle">News & Information</h6> 
             
-            <div class="column one_third">
-                <div class="entry clearfix">
-                    <div class="entry-thumb">
-	<div id="slider" class="slidercontent">        
-                            <div class="flexslider">
-                                <ul class="slides">
-                                    <li>
-                                        <img src="files/images/blog/post_03.jpg" alt="Blog Post 03"/>
-                                    </li>
-                                    <li>
-                                        <img src="files/images/blog/post_02.jpg" alt="Blog Post 02"/>
-                                    </li>
-                                    <li>
-                                        <img src="files/images/blog/post_01.jpg" alt="Blog Post 01"/>
-                                    </li>
-                                </ul>
-                            </div>
+            <div class="column one_third seperator">
+                <div class="widget">
+                    <h6 class="sectiontitle">About b2gstudios Web Development & Design</h6>
+                        <div id="text-widget">
+                            <p>We have traveled this universe many times and know what it takes offering many services for those who are just starting a business to those who want to revitalize their own. The days are gone when having a website alone will generate sales, companies spend millions on web design and development because they realize where the future lies.</p><p><a href="about-b2gstudios-website-design-development-ct.php" class="color readmore"><span class="readmoreicon">+</span>read more about b2gStudios websites</a></p>
                         </div>
-                    </div>                    
-                	
-                    <div class="entry-content clearfix">
-                    	<div class="entry-meta left_float">
-                        	<div class="meta_type"><a href="blog-single.php" class="type_gallery"></a></div>
-                        </div>
-                        
-                        <div class="entry-info right_float">
-                            <div class="post-headline">
-                                <h4><strong><a href="blog-single.php">Consectetuer adipiscing elit</a></strong></h4>
-                                <span class="entry-date">March 15, 2012</span>
-                            </div>
-                            <p>
-
-                            Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem.
-                            </p>
-                               
-                        </div>
-                    </div>
                 </div>
             </div>
-                        
-            <div class="column one_third">
+                     
+           <div class="column one_third">
                 <div class="entry clearfix">
                     <div class="entry-thumb">
 	<div class="embeddedvideo">
-		<iframe src="http://player.vimeo.com/video/41629467?title=0&amp;byline=0" width="56" height="100" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-                        </div>
+		<iframe src="http://player.vimeo.com/video/12332496?title=0&amp;byline=0" width="300" height="180" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                       <p><a href="http://vimeo.com/12332496">Adobe Fireworks CS5 Webdesign Workflow Tutorial</a></div>
                     </div>                    
-                	
+	
                     <div class="entry-content clearfix">
-                    	<div class="entry-meta left_float">
-                        	<div class="meta_type"><a href="blog-single.php" class="type_video"></a></div>
+	<div class="entry-meta left_float">
+	<div class="meta_type"><a href="http://vimeo.com/reineggernet" class="type_video"></a></div>
                         </div>
                         
                         <div class="entry-info right_float">
                             <div class="post-headline">
-                                <h4><strong><a href="blog-single.php">Nullam dictum</a></strong></h4>
-                                <span class="entry-date">February 18, 2012</span>
+                                <h4><strong><a href="http://vimeo.com/reineggernet">Adobe Fireworks CS5 Webdesign Workflow Tutorial</a></strong></h4>
+                                <span class="entry-date">June 6, 2010</span>
                             </div>
-                            <p>
-                            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-                            </p>
+                           
                                
                         </div>
                     </div>
                 </div>
             </div>
-                        
+            
             <div class="column one_third last">
+            
+            <div class="widget">
+                <h6 class="sectiontitle">Flickr Feed</h6>
+                <div id="flickr-widget">
+                    <ul class="flickr-list">
+                       <div id="b2gstudiosPhotoset">
+                            
+                        </div>
+                </div>
+            </div>
+        </div>         
+            <!--  <div class="column one_third last">
                 <div class="entry clearfix">
                     <div class="entry-thumb">
                     
-                    	<script type="text/javascript">
+	<script type="text/javascript">
 							$(document).ready(function(){
 								if($().jPlayer) {
 									$("#jquery_jplayer").jPlayer({
@@ -231,10 +209,10 @@ include 'slider.php';
 						</div> 
                         
                     </div>                    
-                	
+	
                     <div class="entry-content clearfix">
-                    	<div class="entry-meta left_float">
-                        	<div class="meta_type"><a href="blog-single.php" class="type_audio"></a></div>
+	<div class="entry-meta left_float">
+	<div class="meta_type"><a href="blog-single.php" class="type_audio"></a></div>
                         </div>
                         
                         <div class="entry-info right_float">
@@ -243,12 +221,12 @@ include 'slider.php';
                                 <span class="entry-date">February 03, 2012</span>
                             </div>
                             <p>
-                            	Venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
+	Venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
                             </p>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             
         </div><!-- END #latestnews -->
         
@@ -257,7 +235,7 @@ include 'slider.php';
 
 
     
-<?php include 'footer.php';?>
+<?php include 'php-websites-b2gstudios-ct.php';?>
 
 
 
