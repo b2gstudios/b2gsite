@@ -16,7 +16,7 @@
 <META NAME="COPYRIGHT" CONTENT="&copy; 2012 b2gStudios Responsive Web Development & Design">
 <META NAME="KEYWORDS" CONTENT="Premium Websites, Responsive Websites, Web Design, Web Development, Professional Websites, High Quality Websites, Custom Websites, Unique Websites">
 <?php if (strpos($_SERVER['SCRIPT_NAME'], 'index.php') !== false){
-    echo '<META NAME="Description" CONTENT="Need a Premium Website?. We are b2gStudios. A Professional, Creative & Unique Web Studio. Offering Premium Responsive Website Design and Development. Now Available: White Glove Web Solutions.">';
+    echo '<META NAME="Description" CONTENT="Need a Premium Website?. We are b2gStudios. A Professional, Creative & Unique Web Studio. Offering Premium Responsive Website Design and Development. Now Available: "White Glove" Web Solutions.">';
 }elseif (strpos($_SERVER['SCRIPT_NAME'], 'about-b2gstudios-website-design-development-ct.php') !== false){
     echo '<META NAME="Description" CONTENT="About b2gStudios full service Web Solutions. Need a Premium Website and Hosting? Our Experts will create a custom website package for you today!">';
 }elseif (strpos($_SERVER['SCRIPT_NAME'], 'website-seo-develop-design-b2gstudios-ct.php') !== false){
@@ -53,7 +53,19 @@
 <script src="files/js/elemental.min.js"></script>
 <script src="files/js/rappar.js"></script>
 <script src="files/js/jquery.vectron.js"></script>
+<script src="files/js/jquery-picture-min.js"></script>
  <?php tweet();?>
+
+ <!-- Initializes Responsive Image Script -->
+<script type="text/javascript">
+
+$(function(){
+    $('figure, picture').picture();
+});
+
+</script>
+
+
 <script>
         $(document).ready(function(){
             $('.svg').vectron({ scale:1});
@@ -148,8 +160,6 @@
     echo 'id="portfolio"';
 }elseif (strpos($_SERVER['SCRIPT_NAME'], 'contact-b2gstudios-responsive-websites-ct.php') !== false){
     echo 'id="portfolio"';
-}elseif (strpos($_SERVER['SCRIPT_NAME'], '404.php') !== false){
-    echo 'class="brown1" id="bg_1"';
 };
 
 ?>
@@ -196,7 +206,7 @@
      if (strpos($_SERVER['SCRIPT_NAME'], 'index.php') !== false)  {?> 
             <div class="header_tagline seperator-section">
             <h1><strong>Hello World, We Are b2gStudios</strong></h1>
-            <h3>A Professional Web Studio, Specializing In Premium Responsive Websites.</h3>
+            <h3>Professional Hand-Coded Websites, Tailored For You And Your Business.</h3>
             </div><?php };?>
     </div>  
 </header>
