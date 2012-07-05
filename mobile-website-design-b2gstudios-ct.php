@@ -6,6 +6,10 @@
             <div class="flexslider">
                 <ul class="slides">
                     <li>
+                        <img src="files/images/slider-07.jpg" />
+                        <div class="flex-caption"><h4><strong>Showcase Your Products! </strong></h4><p>This plugin can be used to show a product or anything else in complete 3D. You can zoom, pan, rotate and more. The best part is that it works on any browser even mobile! Try our demo <a href="#expo">here</a>. </p></div>
+                    </li>
+                    <li>
                         <img src="files/images/slider-01.png" />
                         <div class="flex-caption"><h4><strong>One-Size &amp; Fits-All </strong></h4><p>b2gStudios builds <a href="website-seo-develop-design-b2gstudios-ct.php">websites with responsive layouts</a> maximizing user experience and increasing exposure.</p></div>
                     </li>

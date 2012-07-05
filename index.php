@@ -21,11 +21,11 @@ include 'mobile-website-design-b2gstudios-ct.php';
             <div id="masonry" class="portfolio-entries columns4 clearfix">
                 <div class="masonry_item portfolio-entry design">
                     <div class="imgoverlay">
-                        <a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="Web_Interface"><img src="files/images/portfolio/thumb-work_01.png" alt="Work 01"/></a>
+                        <a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="Photo Shop"><img src="files/images/portfolio/thumb-work_01.jpg" alt="Work 01"/></a>
                     </div>
                     <div class="portfolio-meta">
-                        <h5><a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="Web_Interface"><strong>Web Interface</strong></a></h5>
-                        <span class="portfolio-categories">Design</span>
+                        <h5><a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="Photo Shop"><strong>Photo Shop</strong></a></h5>
+                        <span class="portfolio-categories">eCommerce</span>
                     </div>
                 </div>
                 
@@ -81,7 +81,7 @@ include 'mobile-website-design-b2gstudios-ct.php';
                 
                 <div class="masonry_item portfolio-entry development">
                     <div class="imgoverlay">
-                        <a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="Responsive_Landing_Page"><img src="files/images/portfolio/thumb-work_01.jpg" alt="Work 01"/></a>
+                        <a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="Responsive_Landing_Page"><img src="files/images/portfolio/thumb-work_05.png" alt="Work 01"/></a>
                     </div>
                     <div class="portfolio-meta">
                         <h5><a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="Responsive_Landing_Page"><strong>Responsive Landing Page</strong></a></h5>
@@ -142,15 +142,53 @@ include 'mobile-website-design-b2gstudios-ct.php';
             <div class="column one_third last">
             
             <div class="widget">
-                <h6 class="sectiontitle">Flickr Feed</h6>
+                <h6 class="sectiontitle">WANT TO WORK WITH US?</h6>
                 <div id="flickr-widget">
-                    <ul class="flickr-list">
-                       <div id="b2gstudiosPhotoset">
-                            
+                    <div class="entry clearfix">
+                    <div class="entry-thumb">
+                       <div id="slider" class="slidercontent">        
+                            <div class="flexslider">
+                                <ul class="slides">
+                                    <li>
+                                       <!--  <figure class="responsive" data-media="files/images/blog/card-back.png" data-media440="files/images/blog/card-back.png" data-media600="files/images/blog/card-back.png" title="Contact Us">
+                                            <noscript>
+                                                <img src="files/images/blog/card-back.png" alt="Contact Us">
+                                            </noscript>
+                                        </figure> -->
+                                        <img src="files/images/blog/card-back.png" alt="Contact Us"/>
+                                    </li>
+                                    <li>
+                                        <img src="files/images/blog/card-front.png" alt="Contact Us"/>
+                                    </li>
+                                   
+                                </ul>
+                            </div>
                         </div>
+                    </div>                    
+                    
+                    <div class="entry-content clearfix">
+                        <div class="entry-meta left_float">
+                            <div class="meta_type"><a href="contact-b2gstudios-responsive-websites-ct.php" class="type_gallery"></a></div>
+                        </div>
+                        
+                        <div class="entry-info right_float">
+                            <div class="post-headline">
+                                <h4><strong><a href="contact-b2gstudios-responsive-websites-ct.php">Take Our Card!</a></strong></h4>
+                                <span class="entry-date">June 1, 2012</span>
+                            </div>
+                            <p>
+
+                            Keep checking this section because we will be posting some amazing packages for this summer.
+                            </p>
+                               
+                        </div>
+                    </div>
+                </div>
+                   
                 </div>
             </div>
         </div>         
+             
             <!--  <div class="column one_third last">
                 <div class="entry clearfix">
                     <div class="entry-thumb">

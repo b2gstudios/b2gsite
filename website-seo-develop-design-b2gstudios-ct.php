@@ -37,11 +37,11 @@
 	        <div id="masonry" class="portfolio-entries columns4 clearfix">
 	            <div class="masonry_item portfolio-entry design">
                     <div class="imgoverlay">
-                        <a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="Web_Interface"><img src="files/images/portfolio/thumb-work_01.png" alt="Work 01"/></a>
+                        <a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="Photo Shop"><img src="files/images/portfolio/thumb-work_01.jpg" alt="Work 01"/></a>
                     </div>
                     <div class="portfolio-meta">
-	                    <h5><a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="Web_Interface"><strong>Web Interface</strong></a></h5>
-                        <span class="portfolio-categories">Design</span>
+	                    <h5><a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="Photo Shop"><strong>Photo Shop</strong></a></h5>
+                        <span class="portfolio-categories">eCommerce</span>
                     </div>
 	            </div>
                 
@@ -97,7 +97,7 @@
                 
                 <div class="masonry_item portfolio-entry development">
                     <div class="imgoverlay">
-                        <a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="Responsive_Landing_Page"><img src="files/images/portfolio/thumb-work_01.jpg" alt="Work 01"/></a>
+                        <a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="Responsive_Landing_Page"><img src="files/images/portfolio/thumb-work_05.png" alt="Work 01"/></a>
                     </div>
                     <div class="portfolio-meta">
 	                    <h5><a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="Responsive_Landing_Page"><strong>Responsive Landing Page</strong></a></h5>

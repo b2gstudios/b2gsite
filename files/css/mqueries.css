@@ -284,7 +284,17 @@ Columns
 #maincontent .one_third { width: 240px; }
 #maincontent .two_third { width: 240px; }
 
+/*---------------------------------------------- 
+Expo Widget
+------------------------------------------------*/
+#expo {
+	width:310px;
+	position:relative;
+	margin-left:0px;
+	padding-left:0px;
+	right:35px;
 
+}
 /*---------------------------------------------- 
 Pricing Table
 ------------------------------------------------*/

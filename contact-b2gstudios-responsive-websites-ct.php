@@ -43,7 +43,7 @@
      
         <article>
             <div class="column two_third">
-                <h4><strong>Let b2gStudios build you a website.</strong></h4>
+                <h4><strong>Want to work with us? Let us know.</strong></h4>
                    
 
                  
@@ -114,7 +114,10 @@
                 Berlin, CT 06037
                 </p>
                 <p>
+
                 Phone: 1(800) 725-7840
+                <a onclick="goog_report_conversion('tel:800-725-7840')" href="tel:800-725-7840" ><button onclick="goog_report_conversion('tel:800-725-7840')">CALL NOW</button></a>
+                
                <!--  Fax: (1800) --><br /> 
                 Website: <a href="#">b2gstudios.com</a><br />
                 Email: <a href="#">hireb2g@b2gstudios.com</a>

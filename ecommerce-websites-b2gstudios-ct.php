@@ -54,6 +54,13 @@
 <script src="files/js/rappar.js"></script>
 <script src="files/js/jquery.vectron.js"></script>
 <script src="files/js/jquery-picture-min.js"></script>
+
+<script src="files/js/libraries/jquery.mobile.vmouse.js"></script> 
+<script src="files/js/libraries/jquery.mousewheel.min.js"></script> 
+<script src="files/js/pngFixer.js"></script>
+<script src="files/js/buttons.js"></script>
+<script src="files/js/Expo360.js"></script>
+<script src="files/js/preview1.js"></script>
  <?php tweet();?>
 
  <!-- Initializes Responsive Image Script -->

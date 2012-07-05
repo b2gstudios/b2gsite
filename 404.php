@@ -98,10 +98,10 @@
           </div>
       
       </div>
-    <script type="text/javascript">
+<script type="text/javascript">
 
   var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-32896696-1']);
+  _gaq.push(['_setAccount', 'UA-29418297-1']);
   _gaq.push(['_trackPageview']);
 
   (function() {

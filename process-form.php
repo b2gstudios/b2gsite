@@ -79,7 +79,25 @@ if (!empty($fields))
             echo "<h2 class='confirm_message'>Message Sent</h2>";
             echo "<br/><p class='confirm_message'>Thank you <strong>" . $fields['name'] . "</strong>, your message has been submitted to b2gStudios.  Someone will contact you shortly.</p>";?>
             <!-- Google Code for Contact b2gStudios Conversion Page -->
-            <?php echo '<table style="padding: 1px; border-collapse: collapse; background-color: ffffff" summary="Google Site Stats"><tr><td style="font-family: arial, sans-serif; font-size: 11px; color: #000000;" align="center">Google Site Stats<br/><a href="http://www.google.com/gwt/n?u=http://services.google.com/sitestats/en.html" style="color: #000000">send feedback</a></td></tr></table><img height="1" width="1" alt="" src="http://www.googleadservices.com/pagead/conversion/1007106987/imp.gif?value=0&amp;label=G9WQCI2bjAMQq_ec4AM&amp;guid=ON&amp;script=0"/>';
+            <?php echo '
+
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1007106987;
+var google_conversion_language = "en";
+var google_conversion_format = "2";
+var google_conversion_color = "ffffff";
+var google_conversion_label = "wgcCCNWIkQMQq_ec4AM";
+var google_conversion_value = 0;
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="http://www.googleadservices.com/pagead/conversion/1007106987/?value=0&amp;label=wgcCCNWIkQMQq_ec4AM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>';
         }
         else
         {

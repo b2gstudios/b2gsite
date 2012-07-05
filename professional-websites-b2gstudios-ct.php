@@ -17,7 +17,7 @@
 <div class="flexslider">
 <ul class="slides">
                         <li>
-                            <div class="imgoverlay"><a href="files/images/portfolio/work_01.png" class="openfancybox" rel="gallery"><img src="files/images/portfolio/work_01.png" /></a></div>
+                            <div class="imgoverlay"><a href="files/images/portfolio/work_01.png" class="openfancybox" rel="gallery"><img src="files/images/portfolio/work_01.jpg" /></a></div>
                         </li>
 
                         <li>
@@ -31,7 +31,7 @@
                             <div class="imgoverlay"><a href="files/images/portfolio/work_04.png" class="openfancybox" rel="gallery"><img src="files/images/portfolio/work_04.png" /></a></div>
                         </li> 
                         <li>
-                            <div class="imgoverlay"><a href="files/images/portfolio/work_04.jpg" class="openfancybox" rel="gallery"><img src="files/images/portfolio/work_04.jpg" /></a></div>
+                            <div class="imgoverlay"><a href="files/images/portfolio/work_04.jpg" class="openfancybox" rel="gallery"><img src="files/images/portfolio/work_05.png" /></a></div>
                         </li> 
                         <li>
                             <div class="imgoverlay"><a href="files/images/portfolio/work_02.jpg" class="openfancybox" rel="gallery"><img src="files/images/portfolio/work_02.jpg" /></a></div>
