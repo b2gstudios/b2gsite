@@ -1,4 +1,17 @@
 <!-- This is the header page -->
+<?php
+$cachefile = 'cache.html';
+$cachetime = 4 * 60;
+// Serve from the cache if it is younger than $cachetime
+if (file_exists($cachefile) && time() - $cachetime < filemtime($cachefile)) {
+    include($cachefile);
+    echo "<!-- Cached copy, generated ".date('H:i', filemtime($cachefile))." -->\n";
+    exit;
+}
+ob_start();
+
+?>
+<?php header('Content-type: text/html; charset=utf-8'); ?>
 <?php include 'includes/initialize.php';?>
 <!doctype html>
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
@@ -8,150 +21,53 @@
 <head profile="http://www.w3.org/2005/10/profile">
 <link rel="icon" 
       type="image/png" 
-      href="files/images/flame32x32.png" />
-<meta charset="utf-8">
+      href="b2gwebsitesct/files/images/flame32x32.png" />
+
+
 <!-- scaling not possible (for smartphones, ipad, etc.) -->
+<meta name="google-site-verification" content="hfC6hr33CkqrLDNCR88648G4Rf4puUbuXLTJnMcoBMc" />
 <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
-<META NAME="AUTHOR" CONTENT="b2gStudios Premium Responsive Web Design & Development">
-<META NAME="COPYRIGHT" CONTENT="&copy; 2012 b2gStudios Responsive Web Development & Design">
-<META NAME="KEYWORDS" CONTENT="Premium Websites, Responsive Websites, Web Design, Web Development, Professional Websites, High Quality Websites, Custom Websites, Unique Websites">
+<META NAME="AUTHOR" CONTENT="b2gStudios Premium Professional Web Design & Development">
+<META NAME="COPYRIGHT" CONTENT="&copy; 2012 b2gStudios Custom Web Development &amp; Design">
+<META NAME="KEYWORDS" CONTENT="premium websites, custom websites, professional websites, build business web site company, company make business web sites, high quality web services, high quality websites, unique websites, professionally design, build a professional website, premium web design, premium web development, professional web company, premium web company, looking for a good website, custom, web, design, development, company builds professional websites, professional, hand,coded, tailored websites">
+
 <?php if (strpos($_SERVER['SCRIPT_NAME'], 'index.php') !== false){
-    echo '<META NAME="Description" CONTENT="Need a Premium Website?. We are b2gStudios. A Professional, Creative & Unique Web Studio. Offering Premium Responsive Website Design and Development. Now Available: "White Glove" Web Solutions.">';
+    echo '<META NAME="Description" CONTENT="Need a Premium Website?. We are b2gStudios. A Professional, Creative & Unique Web Studio. Offering Premium Custom Website Design and Development. Now Available: "Featured Product Showcase". Increase your sales, display products with flare just ask us how.">';
 }elseif (strpos($_SERVER['SCRIPT_NAME'], 'about-b2gstudios-website-design-development-ct.php') !== false){
-    echo '<META NAME="Description" CONTENT="About b2gStudios full service Web Solutions. Need a Premium Website and Hosting? Our Experts will create a custom website package for you today!">';
+    echo '<META NAME="Description" CONTENT="About b2gStudios Professional Web Solutions. Need a Premium Website and Hosting? Our Experts will create a custom website package for you today!">';
 }elseif (strpos($_SERVER['SCRIPT_NAME'], 'website-seo-develop-design-b2gstudios-ct.php') !== false){
-    echo '<META NAME="Description" CONTENT="Premium Websites Designed and Developed by b2gStudios. Professional Websites made to order, tailored just for you and your business. Contact us today for a quote!">';
+    echo '<META NAME="Description" CONTENT="Premium Websites Designed and Developed by b2gStudios. Professional Websites made to order, tailored just for you and your business. Want a custom site? Contact us today!">';
 }elseif (strpos($_SERVER['SCRIPT_NAME'], 'professional-website-services-ct.php') !== false){
-    echo '<META NAME="Description" CONTENT="Competative Prices, Unbeatable Quality. We build Premium Websites that are hand coded and optimized organically">';
+    echo '<META NAME="Description" CONTENT="Competative Prices, Unbeatable Quality. We build Premium Websites that are custom, hand coded and optimized organically. Rank high on google with our professional website.">';
 }elseif (strpos($_SERVER['SCRIPT_NAME'], 'wordpress-website-development-design-ct.php') !== false){
-    echo '<META NAME="Description" CONTENT="Professional Website Design and Development. We offer many Premium Web Solutions: Responsive Layouts, Wordpress, E-commerce and our "White Glove" including Hosting.">';
+    echo '<META NAME="Description" CONTENT="Professional Website Design and Development. We offer many Premium Web Solutions: Responsive Layouts, Wordpress, Custom Plugins, E-commerce and our "White Glove" including Hosting.">';
 }elseif (strpos($_SERVER['SCRIPT_NAME'], 'contact-b2gstudios-responsive-websites-ct.php') !== false){
-    echo '<META NAME="Description" CONTENT="Need a Professional Website? Tailored for you and your business. Our Responsive Websites are Optimized for all Browsers, even Mobile Phones.  Contact us for a quote today!">';
+    echo '<META NAME="Description" CONTENT="Need a Professional Website? Tailored for you and your business. Our Premium Websites are Optimized for all Browsers, even Mobile Phones.  Contact us to get started on your custom website today!">';
 };
 
 ?>
-<title>Premium Responsive Web Design & Development Studio. Professional Hand-Coded Websites, Tailored For You And Your Business.</title>
+<title>Premium Web Design and Development Company</title>
 <link rel="canonical" href="http://b2gstudios.com"/>
 <link href="files/css/fonts.css" rel="stylesheet" type="text/css" />
-<link href="files/css/style.css" rel="stylesheet" type="text/css" title="style" />
-<link href="files/css/isotope.css" rel="stylesheet" type="text/css" />
-<link href="files/css/flexslider.css" rel="stylesheet" type="text/css" />
-<link href="files/css/fancybox.css" rel="stylesheet" type="text/css" />
-<link href="files/jplayer/jplayer.css" rel="stylesheet" type="text/css"  />
-<link href="files/css/mqueries.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="http://b2gcdn.appspot.com/assets/css/style.css" rel="stylesheet" type="text/css" title="style" />
+<link href="http://b2gcdn.appspot.com/assets/css/isotope.css" rel="stylesheet" type="text/css" />
+<link href="http://b2gcdn.appspot.com/assets/css/flexslider.css" rel="stylesheet" type="text/css" />
+<link href="http://b2gcdn.appspot.com/assets/css/fancybox.css" rel="stylesheet" type="text/css" />
+<link href="http://b2gcdn.appspot.com/assets/jplayer/jplayer.css" rel="stylesheet" type="text/css"  />
+<link href="http://b2gcdn.appspot.com/assets/css/mqueries.css" rel="stylesheet" type="text/css" media="screen" />
 
-
-<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
-
-
-<script src="files/js/jquery.modernizr.min.js"></script>
-
-<script src="files/js/jquery.tweet.js" ></script>
-<script src="comments/script.js"></script>
-<script src="files/js/flickrImport_min.js"></script>
-<script src="files/js/raphael.js"></script>
-<script src="files/js/elemental.min.js"></script>
-<script src="files/js/rappar.js"></script>
-<script src="files/js/jquery.vectron.js"></script>
-<script src="files/js/jquery-picture-min.js"></script>
-
-<script src="files/js/libraries/jquery.mobile.vmouse.js"></script> 
-<script src="files/js/libraries/jquery.mousewheel.min.js"></script> 
-<script src="files/js/pngFixer.js"></script>
-<script src="files/js/buttons.js"></script>
-<script src="files/js/Expo360.js"></script>
-<script src="files/js/preview1.js"></script>
- <?php tweet();?>
-
- <!-- Initializes Responsive Image Script -->
+<!-- GooglePlus+ -->
 <script type="text/javascript">
+window.___gcfg = {lang: 'en'};
+(function() 
+{var po = document.createElement("script");
+po.type = "text/javascript"; po.async = true;po.src = "https://apis.google.com/js/plusone.js";
+var s = document.getElementsByTagName("script")[0];
+s.parentNode.insertBefore(po, s);
+})();</script>
 
-$(function(){
-    $('figure, picture').picture();
-});
-
-</script>
 
 
-<script>
-        $(document).ready(function(){
-            $('.svg').vectron({ scale:1});
-            // $('#bigzebra').vectron({ scale: 2 });
-        });
-    </script>
-
-<script type="text/javascript" charset="utf-8">
-    
-    /* Callback to attach fancybox once the images load */
-    function attachFancyBox()
-    {
-        $(".fancyBox").fancybox();
-    }                   
-
-    themeForest.flickrImport = new FlickrImport({
-        "calls":[
-            {
-                "method":"flickr.photosets.getPhotos",
-                "photosetId":"72157630056983179",
-                "id":"b2gstudiosPhotoset",
-
-                /*  BEGIN OPTIONAL FANCYBOX PARAMS */
-                "imageLink":"preview",     // Tells the script to grab the image url for fancybox
-                "className":"fancyBox",    // Class for attaching fancybox
-                "callback":attachFancyBox  // Once the images show attach the fancybox script
-                /* END */
-            },
-            {
-                "method":"flickr.people.getPublicPhotos",
-                "username":"b2gstudios",
-                "id":"b2gstudiosRecentPhotos",
-
-                /*  BEGIN OPTIONAL FANCYBOX PARAMS */
-                "imageLink":"preview",     // Tells the script to grab the image url for fancybox
-                "className":"fancyBox",    // Class for attaching fancybox
-                "callback":attachFancyBox  // Once the images show attach the fancybox script
-                /* END */
-            },
-            {
-                "method":"flickr.photosets.getList",
-                "username":"b2gstudios",
-                "id":"b2gstudiosPhotosets",
-                "perRow":"1"
-            },
-            {
-                "method":"flickr.favorites.getPublicList",
-                "username":"b2gstudios",
-                "id":"b2gstudiosFavorites"
-            },
-            {
-                "method":"flickr.interestingness.getList",
-                "id":"b2gstudiosInterestingness"
-            },
-            {
-                "method":"flickr.groups.pools.getPhotos",
-                "groupId":"613394@N22",
-                "id":"b2gstudiosPools"
-            }
-        ],
-        "apiKey":"1d46b7ca5cb5a08dac43bfa703efd789",
-        "secret":"97ded53f7595b624"
-    });   
-        
-    </script> 
-    <!-- Google Analytics -->
-    <script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-32896696-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
    
 </head>
 <body 
@@ -212,8 +128,9 @@ $(function(){
    <?php
      if (strpos($_SERVER['SCRIPT_NAME'], 'index.php') !== false)  {?> 
             <div class="header_tagline seperator-section">
-            <h1><strong>Hello World, We Are b2gStudios</strong></h1>
-            <h3>Professional Hand-Coded Websites, Tailored For You And Your Business.</h3>
+            <h1>Premium Web Design and Development Company</h1> 
+            <h3>Build a custom and professional business website, You can start <a href="contact-b2gstudios-responsive-websites-ct.php"><strong>here</strong></a>.</h3>
+            <!-- <h3>Building Hand-Coded Premium Websites, Custom For You And Your Business.</h3> -->
             </div><?php };?>
     </div>  
 </header>

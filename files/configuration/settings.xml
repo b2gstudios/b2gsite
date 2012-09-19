@@ -35,7 +35,7 @@
 	<!-- initial autoplay set to true or false  -->
 	<autoplay>true</autoplay>
 	<!-- autoplay rotation speed  -->
-	<autoplaySpeed>3</autoplaySpeed>
+	<autoplaySpeed>1</autoplaySpeed>
 
 	<!-- set to true if your images list isn't in positive rotation 
 	(if by rotating your object is going in the oposite direction the you have to change this field) -->

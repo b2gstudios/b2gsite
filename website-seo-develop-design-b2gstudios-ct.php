@@ -4,7 +4,7 @@
 
 <section id="pagetitle">
 	<div class="pagetitle_inner wrapperoverlay">
-		<h2><strong>Portfolio</strong><span class="tagline">Our Latest Projects</span></h2>
+		<h2><strong>Portfolio</strong><span class="tagline">Our latest projects and under development web sites.</span></h2>
     </div>
 </section>
 
@@ -30,12 +30,12 @@
 	       <ul class="filter">
                 <li><a class="active" href="#" data-option-value="*">All</a></li>
                 <li><a href="#" data-option-value=".design">Design</a></li>
-                <li><a href="#" data-option-value=".web">Web</a></li>
+                <li><a href="#" data-option-value=".eCommerce">eCommerce</a></li>
                 <li><a href="#" data-option-value=".development">Development</a></li>
             </ul>
             
 	        <div id="masonry" class="portfolio-entries columns4 clearfix">
-	            <div class="masonry_item portfolio-entry design">
+	            <div class="masonry_item portfolio-entry eCommerce">
                     <div class="imgoverlay">
                         <a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="Photo Shop"><img src="files/images/portfolio/thumb-work_01.jpg" alt="Work 01"/></a>
                     </div>
@@ -44,6 +44,16 @@
                         <span class="portfolio-categories">eCommerce</span>
                     </div>
 	            </div>
+
+                <div class="masonry_item portfolio-entry eCommerce">
+                    <div class="imgoverlay">
+                        <a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="Magento Ecommerce"><img src="files/images/portfolio/magento-ecommerce-thumb.png" alt="Magento Ecommerce"/></a>
+                    </div>
+                    <div class="portfolio-meta">
+                        <h5><a href="professional-websites-b2gstudios-ct.php" class="loadcontent" rel="Magento Ecommerce"><strong>Magento eCommerce</strong></a></h5>
+                        <span class="portfolio-categories">eCommerce</span>
+                    </div>
+                </div>
                 
                 <div class="masonry_item portfolio-entry development">
                     <div class="imgoverlay">

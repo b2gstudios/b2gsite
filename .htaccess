@@ -1,6 +1,45 @@
+# Set up caching on media files for 1 week
+<filesMatch "\.(gif|jpg|jpeg|png|swf)$">
+ExpiresDefault A604800
+Header append Cache-Control "public"
+</filesMatch>
+
+
+ 
+# Set up 2 Hour caching on commonly updated files
+<filesMatch "\.(xml|txt|html|js|css)$">
+ExpiresDefault A7200
+Header append Cache-Control "proxy-revalidate"
+</filesMatch>
+ 
+# Force no caching for dynamic files
+<filesMatch "\.(php|cgi|pl|htm)$">
+ExpiresActive On
+Header set Cache-Control "private, no-cache, no-store, proxy-revalidate, no-transform"
+Header set Pragma "no-cache"
+</filesMatch>
+
+
+Header unset ETag
+FileETag None
+SetOutputFilter DEFLATE
+SetEnvIfNoCase Request_URI \.(?:gif|jpe?g|png)$ \
+    no-gzip dont-vary
+SetEnvIfNoCase Request_URI \
+    \.(?:exe|t?gz|zip|bz2|sit|rar)$ \
+    no-gzip dont-vary
+SetEnvIfNoCase Request_URI \.pdf$ no-gzip dont-vary
+<IfModule mod_expires.c>
+   	<FilesMatch "\.(gif|png|jpg|jpeg|js|css|swf|ico)$">
+		ExpiresActive On
+   		ExpiresDefault "access plus 1 years"
+	</FilesMatch>
+</IfModule>
 RewriteEngine on
+RewriteRule ^(assets)/(js|css|img|swf)/(.*\.)v[0-9.]+\.(js|css|jpg|gif|png|swf)$ 	$1/$2/$3$4 [L]
+
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.php -f
 RewriteRule ^(.*)$ $1.php
 
-ErrorDocument 404 /404.php
+ErrorDocument 404 http://b2gstudios.com/404/404.php 

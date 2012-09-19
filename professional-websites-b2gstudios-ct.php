@@ -20,6 +20,10 @@
                             <div class="imgoverlay"><a href="files/images/portfolio/work_01.png" class="openfancybox" rel="gallery"><img src="files/images/portfolio/work_01.jpg" /></a></div>
                         </li>
 
+
+                        <li>
+                            <div class="imgoverlay"><a href="files/images/portfolio/magento-ecommerce.png" class="openfancybox" rel="gallery"><img src="files/images/portfolio/magento-ecommerce.png" /></a></div>
+                        </li>
                         <li>
                             <div class="imgoverlay"><a href="files/images/portfolio/work_02.png" class="openfancybox" rel="gallery"><img src="files/images/portfolio/work_02.png" /></a></div>
                         </li>
